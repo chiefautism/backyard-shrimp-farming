@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" font-family="system-ui, sans-serif">
+  <rect width="600" height="420" rx="8" fill="#0a0e17"/>
+  <text x="300" y="28" text-anchor="middle" fill="#4fc3f7" font-size="14" font-weight="bold">Neocaridina Color Compatibility Chart</text>
+  <text x="300" y="46" text-anchor="middle" fill="#546e7a" font-size="10">Same group = safe to mix  |  Different groups = produces wild-type (brown) offspring</text>
+
+  <!-- Red Line -->
+  <rect x="20" y="65" width="170" height="90" rx="8" fill="#1a1518" stroke="#ef5350" stroke-width="2"/>
+  <text x="105" y="85" text-anchor="middle" fill="#ef5350" font-size="11" font-weight="bold">Red Line</text>
+  <circle cx="50" cy="105" r="8" fill="#d32f2f"/>
+  <text x="72" y="108" fill="#ef9a9a" font-size="8">Cherry</text>
+  <circle cx="50" cy="125" r="8" fill="#b71c1c"/>
+  <text x="72" y="128" fill="#ef9a9a" font-size="8">Fire Red</text>
+  <circle cx="130" cy="105" r="8" fill="#c62828"/>
+  <text x="152" y="108" fill="#ef9a9a" font-size="8">Sakura</text>
+  <circle cx="130" cy="125" r="8" fill="#8b0000"/>
+  <text x="152" y="128" fill="#ef9a9a" font-size="8">Painted</text>
+
+  <!-- Blue Line -->
+  <rect x="210" y="65" width="170" height="90" rx="8" fill="#111528" stroke="#42a5f5" stroke-width="2"/>
+  <text x="295" y="85" text-anchor="middle" fill="#42a5f5" font-size="11" font-weight="bold">Blue Line</text>
+  <circle cx="240" cy="105" r="8" fill="#1565c0"/>
+  <text x="262" y="108" fill="#90caf9" font-size="8">Blue Dream</text>
+  <circle cx="240" cy="125" r="8" fill="#1976d2"/>
+  <text x="262" y="128" fill="#90caf9" font-size="8">Blue Velvet</text>
+  <circle cx="340" cy="105" r="8" fill="#42a5f5" opacity="0.6"/>
+  <text x="362" y="108" fill="#90caf9" font-size="8">Blue Jelly</text>
+
+  <!-- Orange Line -->
+  <rect x="400" y="65" width="180" height="90" rx="8" fill="#1a1810" stroke="#ff9800" stroke-width="2"/>
+  <text x="490" y="85" text-anchor="middle" fill="#ff9800" font-size="11" font-weight="bold">Orange Line</text>
+  <circle cx="430" cy="105" r="8" fill="#e65100"/>
+  <text x="452" y="108" fill="#ffcc80" font-size="8">Orange Sakura</text>
+  <circle cx="430" cy="125" r="8" fill="#ff6d00"/>
+  <text x="452" y="128" fill="#ffcc80" font-size="8">Sunkist</text>
+
+  <!-- Yellow Line -->
+  <rect x="20" y="175" width="170" height="90" rx="8" fill="#1a1a10" stroke="#fdd835" stroke-width="2"/>
+  <text x="105" y="195" text-anchor="middle" fill="#fdd835" font-size="11" font-weight="bold">Yellow Line</text>
+  <circle cx="50" cy="215" r="8" fill="#f9a825"/>
+  <text x="72" y="218" fill="#fff59d" font-size="8">Yellow</text>
+  <circle cx="50" cy="235" r="8" fill="#fbc02d"/>
+  <text x="72" y="238" fill="#fff59d" font-size="8">Golden Back</text>
+  <circle cx="130" cy="215" r="8" fill="#fdd835"/>
+  <text x="152" y="218" fill="#fff59d" font-size="8">Neon Yellow</text>
+
+  <!-- Chocolate/Black Line -->
+  <rect x="210" y="175" width="170" height="90" rx="8" fill="#15120e" stroke="#795548" stroke-width="2"/>
+  <text x="295" y="195" text-anchor="middle" fill="#a1887f" font-size="11" font-weight="bold">Dark Line</text>
+  <circle cx="240" cy="215" r="8" fill="#3e2723"/>
+  <text x="262" y="218" fill="#bcaaa4" font-size="8">Black Rose</text>
+  <circle cx="240" cy="235" r="8" fill="#5d4037"/>
+  <text x="262" y="238" fill="#bcaaa4" font-size="8">Chocolate</text>
+
+  <!-- Bloody Mary (separate) -->
+  <rect x="400" y="175" width="180" height="90" rx="8" fill="#1a1015" stroke="#c62828" stroke-width="2" stroke-dasharray="4,3"/>
+  <text x="490" y="195" text-anchor="middle" fill="#e57373" font-size="11" font-weight="bold">Bloody Mary</text>
+  <text x="490" y="215" text-anchor="middle" fill="#ef9a9a" font-size="8">Tissue-based color</text>
+  <text x="490" y="230" text-anchor="middle" fill="#ef9a9a" font-size="8">(not shell pigment)</text>
+  <text x="490" y="250" text-anchor="middle" fill="#c62828" font-size="8" font-weight="bold">Keep separate</text>
+
+  <!-- Wild Type (center, result of mixing) -->
+  <rect x="150" y="290" width="300" height="50" rx="8" fill="#1a1a15" stroke="#9e9e9e" stroke-width="2"/>
+  <text x="300" y="312" text-anchor="middle" fill="#bdbdbd" font-size="11" font-weight="bold">Wild Type (Brown/Clear)</text>
+  <text x="300" y="330" text-anchor="middle" fill="#9e9e9e" font-size="9">Result of mixing different color groups</text>
+
+  <!-- X arrows from each group to wild type -->
+  <line x1="105" y1="155" x2="200" y2="295" stroke="#ef5350" stroke-width="1" opacity="0.3" stroke-dasharray="3,3"/>
+  <line x1="295" y1="155" x2="300" y2="290" stroke="#42a5f5" stroke-width="1" opacity="0.3" stroke-dasharray="3,3"/>
+  <line x1="490" y1="155" x2="400" y2="295" stroke="#ff9800" stroke-width="1" opacity="0.3" stroke-dasharray="3,3"/>
+  <line x1="105" y1="265" x2="200" y2="295" stroke="#fdd835" stroke-width="1" opacity="0.3" stroke-dasharray="3,3"/>
+  <line x1="295" y1="265" x2="300" y2="290" stroke="#795548" stroke-width="1" opacity="0.3" stroke-dasharray="3,3"/>
+
+  <!-- Legend -->
+  <text x="300" y="365" text-anchor="middle" fill="#ef5350" font-size="10">Mixing between groups = wild-type offspring</text>
+  <text x="300" y="382" text-anchor="middle" fill="#66bb6a" font-size="10">Mixing within same group = color maintained</text>
+  <text x="300" y="402" text-anchor="middle" fill="#546e7a" font-size="9">Rule: ONE color line per tank</text>
+</svg>

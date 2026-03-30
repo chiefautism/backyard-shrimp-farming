@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 350" font-family="system-ui, sans-serif">
+  <defs>
+    <marker id="a" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#4fc3f7"/>
+    </marker>
+  </defs>
+  <rect width="600" height="350" rx="8" fill="#0a0e17"/>
+  <text x="300" y="28" text-anchor="middle" fill="#4fc3f7" font-size="15" font-weight="bold">Recirculating Aquaculture System (RAS)</text>
+
+  <!-- Grow Tank -->
+  <rect x="30" y="60" width="160" height="120" rx="10" fill="#1a2332" stroke="#4fc3f7" stroke-width="2"/>
+  <text x="110" y="85" text-anchor="middle" fill="#4fc3f7" font-size="11" font-weight="bold">Grow Tank</text>
+  <text x="110" y="105" text-anchor="middle" fill="#81d4fa" font-size="9">Shrimp live here</text>
+  <!-- Shrimp -->
+  <text x="70" y="145" fill="#ff8a80" font-size="14">~ ~ ~</text>
+  <text x="100" y="160" fill="#ff8a80" font-size="12">~ ~</text>
+
+  <!-- Arrow: Tank -> Settling -->
+  <line x1="190" y1="120" x2="230" y2="120" stroke="#4fc3f7" stroke-width="2" marker-end="url(#a)"/>
+  <text x="210" y="112" text-anchor="middle" fill="#546e7a" font-size="7">overflow</text>
+
+  <!-- Settling Tank -->
+  <rect x="230" y="80" width="100" height="80" rx="8" fill="#1a2332" stroke="#8d6e63" stroke-width="2"/>
+  <text x="280" y="110" text-anchor="middle" fill="#bcaaa4" font-size="10" font-weight="bold">Settling</text>
+  <text x="280" y="125" text-anchor="middle" fill="#8d6e63" font-size="8">Solids removal</text>
+  <!-- Sludge indicator -->
+  <rect x="240" y="140" width="80" height="12" rx="3" fill="#5d4037" opacity="0.5"/>
+  <text x="280" y="149" text-anchor="middle" fill="#8d6e63" font-size="6">sludge</text>
+
+  <!-- Arrow: Settling -> Biofilter -->
+  <line x1="330" y1="120" x2="370" y2="120" stroke="#4fc3f7" stroke-width="2" marker-end="url(#a)"/>
+
+  <!-- Biofilter -->
+  <rect x="370" y="70" width="110" height="100" rx="8" fill="#1a2332" stroke="#66bb6a" stroke-width="2"/>
+  <text x="425" y="95" text-anchor="middle" fill="#a5d6a7" font-size="10" font-weight="bold">Biofilter</text>
+  <text x="425" y="110" text-anchor="middle" fill="#66bb6a" font-size="8">MBBR / K1 media</text>
+  <!-- Media circles -->
+  <circle cx="400" cy="130" r="5" fill="none" stroke="#66bb6a" stroke-width="1" opacity="0.5"/>
+  <circle cx="415" cy="135" r="5" fill="none" stroke="#66bb6a" stroke-width="1" opacity="0.5"/>
+  <circle cx="430" cy="128" r="5" fill="none" stroke="#66bb6a" stroke-width="1" opacity="0.5"/>
+  <circle cx="445" cy="138" r="5" fill="none" stroke="#66bb6a" stroke-width="1" opacity="0.5"/>
+  <circle cx="408" cy="148" r="5" fill="none" stroke="#66bb6a" stroke-width="1" opacity="0.5"/>
+  <circle cx="435" cy="150" r="5" fill="none" stroke="#66bb6a" stroke-width="1" opacity="0.5"/>
+  <text x="425" y="165" text-anchor="middle" fill="#66bb6a" font-size="7">NH3 -> NO2 -> NO3</text>
+
+  <!-- Arrow: Biofilter -> Optional UV -->
+  <line x1="480" y1="120" x2="510" y2="120" stroke="#4fc3f7" stroke-width="2" marker-end="url(#a)"/>
+
+  <!-- UV Sterilizer (optional) -->
+  <rect x="510" y="90" width="70" height="60" rx="8" fill="#1a2332" stroke="#ce93d8" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="545" y="115" text-anchor="middle" fill="#ce93d8" font-size="9">UV</text>
+  <text x="545" y="128" text-anchor="middle" fill="#ce93d8" font-size="8">Sterilizer</text>
+  <text x="545" y="145" text-anchor="middle" fill="#9c27b0" font-size="7">(optional)</text>
+
+  <!-- Arrow: UV down to Sump -->
+  <line x1="545" y1="150" x2="545" y2="200" stroke="#4fc3f7" stroke-width="2" marker-end="url(#a)"/>
+
+  <!-- Sump -->
+  <rect x="470" y="200" width="120" height="70" rx="8" fill="#1a2332" stroke="#4fc3f7" stroke-width="2"/>
+  <text x="530" y="225" text-anchor="middle" fill="#4fc3f7" font-size="10" font-weight="bold">Sump</text>
+  <text x="530" y="242" text-anchor="middle" fill="#81d4fa" font-size="8">Pump + Heater</text>
+  <text x="530" y="256" text-anchor="middle" fill="#81d4fa" font-size="8">+ Top-off</text>
+
+  <!-- Arrow: Sump back to Tank -->
+  <path d="M470,235 L110,235 L110,180" fill="none" stroke="#4fc3f7" stroke-width="2" marker-end="url(#a)"/>
+  <text x="290" y="230" text-anchor="middle" fill="#546e7a" font-size="7">pump return</text>
+
+  <!-- Legend -->
+  <rect x="30" y="280" width="540" height="55" rx="6" fill="#111822" stroke="#1e3050" stroke-width="1"/>
+  <text x="50" y="300" fill="#4fc3f7" font-size="10" font-weight="bold">Flow:</text>
+  <text x="100" y="300" fill="#81d4fa" font-size="9">Grow Tank -> Settling (solids out) -> Biofilter (ammonia converted) -> UV (pathogens killed) -> Sump (pumped back)</text>
+  <text x="50" y="320" fill="#ffa726" font-size="9">Turnover rate: 2-4x total volume per hour  |  Water exchange: 10-20% weekly</text>
+</svg>

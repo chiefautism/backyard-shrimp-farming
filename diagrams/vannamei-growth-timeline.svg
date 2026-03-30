@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 300" font-family="system-ui, sans-serif">
+  <rect width="650" height="300" rx="8" fill="#0a0e17"/>
+  <text x="325" y="28" text-anchor="middle" fill="#4fc3f7" font-size="15" font-weight="bold">L. vannamei Growth Timeline (90-120 days)</text>
+
+  <!-- X axis -->
+  <line x1="60" y1="230" x2="620" y2="230" stroke="#2a3050" stroke-width="1.5"/>
+  <!-- Y axis -->
+  <line x1="60" y1="50" x2="60" y2="230" stroke="#2a3050" stroke-width="1.5"/>
+
+  <!-- Y axis labels (weight) -->
+  <text x="50" y="230" text-anchor="end" fill="#546e7a" font-size="8">0g</text>
+  <text x="50" y="194" text-anchor="end" fill="#546e7a" font-size="8">5g</text>
+  <text x="50" y="158" text-anchor="end" fill="#546e7a" font-size="8">10g</text>
+  <text x="50" y="122" text-anchor="end" fill="#546e7a" font-size="8">15g</text>
+  <text x="50" y="86" text-anchor="end" fill="#546e7a" font-size="8">20g</text>
+  <text x="50" y="55" text-anchor="end" fill="#546e7a" font-size="8">25g</text>
+  <!-- Y grid lines -->
+  <line x1="60" y1="194" x2="620" y2="194" stroke="#1a2030" stroke-width="0.5"/>
+  <line x1="60" y1="158" x2="620" y2="158" stroke="#1a2030" stroke-width="0.5"/>
+  <line x1="60" y1="122" x2="620" y2="122" stroke="#1a2030" stroke-width="0.5"/>
+  <line x1="60" y1="86" x2="620" y2="86" stroke="#1a2030" stroke-width="0.5"/>
+
+  <!-- X axis labels (weeks) -->
+  <text x="60" y="248" text-anchor="middle" fill="#546e7a" font-size="8">0</text>
+  <text x="107" y="248" text-anchor="middle" fill="#546e7a" font-size="8">2</text>
+  <text x="154" y="248" text-anchor="middle" fill="#546e7a" font-size="8">4</text>
+  <text x="200" y="248" text-anchor="middle" fill="#546e7a" font-size="8">6</text>
+  <text x="247" y="248" text-anchor="middle" fill="#546e7a" font-size="8">8</text>
+  <text x="294" y="248" text-anchor="middle" fill="#546e7a" font-size="8">10</text>
+  <text x="340" y="248" text-anchor="middle" fill="#546e7a" font-size="8">12</text>
+  <text x="387" y="248" text-anchor="middle" fill="#546e7a" font-size="8">14</text>
+  <text x="434" y="248" text-anchor="middle" fill="#546e7a" font-size="8">16</text>
+  <text x="340" y="268" text-anchor="middle" fill="#546e7a" font-size="9">Weeks</text>
+  <text x="20" y="140" text-anchor="middle" fill="#546e7a" font-size="9" transform="rotate(-90,20,140)">Weight (g)</text>
+
+  <!-- Growth curve -->
+  <polyline points="60,229 107,225 154,218 200,205 247,187 294,164 340,140 387,110 434,82"
+    fill="none" stroke="#4fc3f7" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Data points -->
+  <circle cx="60" cy="229" r="3" fill="#4fc3f7"/>
+  <circle cx="107" cy="225" r="3" fill="#4fc3f7"/>
+  <circle cx="154" cy="218" r="3" fill="#4fc3f7"/>
+  <circle cx="200" cy="205" r="3" fill="#4fc3f7"/>
+  <circle cx="247" cy="187" r="3" fill="#4fc3f7"/>
+  <circle cx="294" cy="164" r="3" fill="#4fc3f7"/>
+  <circle cx="340" cy="140" r="3" fill="#4fc3f7"/>
+  <circle cx="387" cy="110" r="3" fill="#4fc3f7"/>
+  <circle cx="434" cy="82" r="3" fill="#4fc3f7"/>
+
+  <!-- Phase labels -->
+  <rect x="60" y="50" width="94" height="22" rx="3" fill="#ef5350" opacity="0.15"/>
+  <text x="107" y="64" text-anchor="middle" fill="#ef9a9a" font-size="8">Nursery Phase</text>
+
+  <rect x="154" y="50" width="140" height="22" rx="3" fill="#ffa726" opacity="0.15"/>
+  <text x="224" y="64" text-anchor="middle" fill="#ffcc80" font-size="8">Growth Phase</text>
+
+  <rect x="294" y="50" width="140" height="22" rx="3" fill="#66bb6a" opacity="0.15"/>
+  <text x="364" y="64" text-anchor="middle" fill="#a5d6a7" font-size="8">Finishing Phase</text>
+
+  <!-- Harvest zone -->
+  <rect x="340" y="75" width="94" height="160" rx="0" fill="#66bb6a" opacity="0.05"/>
+  <text x="500" y="100" fill="#66bb6a" font-size="10" font-weight="bold">HARVEST</text>
+  <text x="500" y="115" fill="#a5d6a7" font-size="8">15-25g</text>
+  <text x="500" y="128" fill="#a5d6a7" font-size="8">Day 90-120</text>
+
+  <!-- Feed info -->
+  <text x="107" y="282" text-anchor="middle" fill="#ef9a9a" font-size="7">Starter 40% protein</text>
+  <text x="224" y="282" text-anchor="middle" fill="#ffcc80" font-size="7">Grower 35% protein</text>
+  <text x="364" y="282" text-anchor="middle" fill="#a5d6a7" font-size="7">Finisher 32% protein</text>
+</svg>

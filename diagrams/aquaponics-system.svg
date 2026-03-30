@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" font-family="system-ui, sans-serif">
+  <defs>
+    <marker id="aq" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#4fc3f7"/>
+    </marker>
+  </defs>
+  <rect width="600" height="320" rx="8" fill="#0a0e17"/>
+  <text x="300" y="28" text-anchor="middle" fill="#4fc3f7" font-size="15" font-weight="bold">Shrimp Aquaponics System</text>
+
+  <!-- Shrimp Tank -->
+  <rect x="30" y="140" width="150" height="120" rx="10" fill="#1a2332" stroke="#4fc3f7" stroke-width="2"/>
+  <rect x="40" y="170" width="130" height="80" rx="6" fill="#1a3040" opacity="0.5"/>
+  <text x="105" y="162" text-anchor="middle" fill="#4fc3f7" font-size="11" font-weight="bold">Shrimp Tank</text>
+  <text x="65" y="210" fill="#ff8a80" font-size="14">~ ~</text>
+  <text x="115" y="220" fill="#ff8a80" font-size="12">~ ~</text>
+  <text x="80" y="235" fill="#ff8a80" font-size="14">~</text>
+  <!-- Bubbles -->
+  <circle cx="80" cy="190" r="2" fill="#81d4fa" opacity="0.4"/>
+  <circle cx="130" cy="185" r="1.5" fill="#81d4fa" opacity="0.3"/>
+
+  <!-- Arrow up from tank -->
+  <path d="M180,180 L220,180 L220,100" fill="none" stroke="#4fc3f7" stroke-width="2" marker-end="url(#aq)"/>
+  <text x="225" y="145" fill="#546e7a" font-size="7" transform="rotate(-90,225,145)">pump</text>
+
+  <!-- Plant Bed (media bed) -->
+  <rect x="230" y="55" width="200" height="90" rx="10" fill="#1a2818" stroke="#66bb6a" stroke-width="2"/>
+  <text x="330" y="78" text-anchor="middle" fill="#66bb6a" font-size="11" font-weight="bold">Plant Grow Bed</text>
+  <text x="330" y="93" text-anchor="middle" fill="#a5d6a7" font-size="8">Expanded clay / gravel media</text>
+
+  <!-- Plants -->
+  <line x1="260" y1="60" x2="260" y2="40" stroke="#66bb6a" stroke-width="2"/>
+  <circle cx="260" cy="37" r="7" fill="#43a047" opacity="0.7"/>
+  <line x1="290" y1="60" x2="290" y2="35" stroke="#66bb6a" stroke-width="2"/>
+  <circle cx="290" cy="32" r="8" fill="#388e3c" opacity="0.7"/>
+  <line x1="320" y1="60" x2="320" y2="38" stroke="#66bb6a" stroke-width="2"/>
+  <circle cx="320" cy="35" r="7" fill="#43a047" opacity="0.7"/>
+  <line x1="350" y1="60" x2="350" y2="33" stroke="#66bb6a" stroke-width="2"/>
+  <circle cx="350" cy="30" r="8" fill="#2e7d32" opacity="0.7"/>
+  <line x1="380" y1="60" x2="380" y2="40" stroke="#66bb6a" stroke-width="2"/>
+  <circle cx="380" cy="37" r="7" fill="#43a047" opacity="0.7"/>
+  <line x1="410" y1="60" x2="410" y2="36" stroke="#66bb6a" stroke-width="2"/>
+  <circle cx="410" cy="33" r="7" fill="#388e3c" opacity="0.7"/>
+
+  <!-- Roots in media -->
+  <line x1="260" y1="95" x2="255" y2="120" stroke="#8d6e63" stroke-width="0.8" opacity="0.5"/>
+  <line x1="260" y1="95" x2="265" y2="118" stroke="#8d6e63" stroke-width="0.8" opacity="0.5"/>
+  <line x1="320" y1="95" x2="315" y2="122" stroke="#8d6e63" stroke-width="0.8" opacity="0.5"/>
+  <line x1="350" y1="95" x2="355" y2="120" stroke="#8d6e63" stroke-width="0.8" opacity="0.5"/>
+
+  <!-- Media dots -->
+  <circle cx="250" cy="110" r="3" fill="#5d4037" opacity="0.3"/>
+  <circle cx="270" cy="118" r="3" fill="#5d4037" opacity="0.3"/>
+  <circle cx="310" cy="112" r="3" fill="#5d4037" opacity="0.3"/>
+  <circle cx="340" cy="120" r="3" fill="#5d4037" opacity="0.3"/>
+  <circle cx="370" cy="115" r="3" fill="#5d4037" opacity="0.3"/>
+  <circle cx="400" cy="118" r="3" fill="#5d4037" opacity="0.3"/>
+
+  <!-- Arrow from plant bed back to tank -->
+  <path d="M330,145 L330,200 L180,200" fill="none" stroke="#66bb6a" stroke-width="2" marker-end="url(#aq)"/>
+  <text x="260" y="195" text-anchor="middle" fill="#546e7a" font-size="7">gravity return (clean water)</text>
+
+  <!-- Nutrient cycle labels -->
+  <rect x="450" y="60" width="140" height="85" rx="6" fill="#111822" stroke="#1e3050" stroke-width="1"/>
+  <text x="520" y="80" text-anchor="middle" fill="#ffa726" font-size="9" font-weight="bold">Nutrient Flow</text>
+  <text x="460" y="98" fill="#ff8a80" font-size="8">1. Shrimp produce waste</text>
+  <text x="460" y="113" fill="#ffcc80" font-size="8">2. Bacteria convert to nitrate</text>
+  <text x="460" y="128" fill="#a5d6a7" font-size="8">3. Plants absorb nutrients</text>
+  <text x="460" y="143" fill="#81d4fa" font-size="8">4. Clean water returns</text>
+
+  <!-- Dual Harvest labels -->
+  <rect x="450" y="165" width="140" height="65" rx="6" fill="#111822" stroke="#66bb6a" stroke-width="1"/>
+  <text x="520" y="185" text-anchor="middle" fill="#66bb6a" font-size="9" font-weight="bold">Dual Harvest</text>
+  <text x="460" y="203" fill="#ff8a80" font-size="8">Shrimp (protein)</text>
+  <text x="460" y="218" fill="#a5d6a7" font-size="8">Vegetables + herbs (produce)</text>
+
+  <!-- pH Warning -->
+  <rect x="30" y="275" width="540" height="35" rx="6" fill="#2a1515" stroke="#ef5350" stroke-width="1"/>
+  <text x="300" y="293" text-anchor="middle" fill="#ffa726" font-size="9" font-weight="bold">pH Compromise: Shrimp want 7.5-8.5  |  Plants want 5.5-6.5  |  Target: ~7.0</text>
+  <text x="300" y="306" text-anchor="middle" fill="#ef9a9a" font-size="8">This is the main challenge of shrimp aquaponics</text>
+</svg>
