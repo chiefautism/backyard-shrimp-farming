@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" font-family="system-ui, sans-serif">
+  <defs>
+    <marker id="bc" markerWidth="7" markerHeight="5" refX="7" refY="2.5" orient="auto">
+      <path d="M0,0 L7,2.5 L0,5 Z" fill="#e91e63"/>
+    </marker>
+  </defs>
+  <rect width="600" height="300" rx="8" fill="#0a0e17"/>
+  <text x="300" y="25" text-anchor="middle" fill="#e91e63" font-size="14" font-weight="bold">Neocaridina Breeding Cycle</text>
+
+  <!-- Step 1: Saddle -->
+  <rect x="20" y="55" width="120" height="70" rx="8" fill="#1a2332" stroke="#e91e63" stroke-width="1.5"/>
+  <text x="80" y="73" text-anchor="middle" fill="#e91e63" font-size="9" font-weight="bold">SADDLE</text>
+  <text x="80" y="88" text-anchor="middle" fill="#f48fb1" font-size="7">Eggs visible behind</text>
+  <text x="80" y="100" text-anchor="middle" fill="#f48fb1" font-size="7">head (yellow/green)</text>
+  <text x="80" y="112" text-anchor="middle" fill="#f48fb1" font-size="7">Female is mature</text>
+  <text x="80" y="122" text-anchor="middle" fill="#546e7a" font-size="6">Age: 3-4 months</text>
+
+  <line x1="140" y1="90" x2="160" y2="90" stroke="#e91e63" stroke-width="1.5" marker-end="url(#bc)"/>
+
+  <!-- Step 2: Molt + Mating -->
+  <rect x="160" y="55" width="120" height="70" rx="8" fill="#1a2332" stroke="#ce93d8" stroke-width="1.5"/>
+  <text x="220" y="73" text-anchor="middle" fill="#ce93d8" font-size="9" font-weight="bold">MOLT + MATE</text>
+  <text x="220" y="88" text-anchor="middle" fill="#e1bee7" font-size="7">Female molts</text>
+  <text x="220" y="100" text-anchor="middle" fill="#e1bee7" font-size="7">Releases pheromones</text>
+  <text x="220" y="112" text-anchor="middle" fill="#e1bee7" font-size="7">Males swarm/dance</text>
+  <text x="220" y="122" text-anchor="middle" fill="#546e7a" font-size="6">Duration: hours</text>
+
+  <line x1="280" y1="90" x2="300" y2="90" stroke="#e91e63" stroke-width="1.5" marker-end="url(#bc)"/>
+
+  <!-- Step 3: Berried -->
+  <rect x="300" y="55" width="120" height="70" rx="8" fill="#1a2332" stroke="#ffa726" stroke-width="1.5"/>
+  <text x="360" y="73" text-anchor="middle" fill="#ffa726" font-size="9" font-weight="bold">BERRIED</text>
+  <text x="360" y="88" text-anchor="middle" fill="#ffcc80" font-size="7">Eggs under tail</text>
+  <text x="360" y="100" text-anchor="middle" fill="#ffcc80" font-size="7">20-30 eggs per clutch</text>
+  <text x="360" y="112" text-anchor="middle" fill="#ffcc80" font-size="7">Fans eggs constantly</text>
+  <text x="360" y="122" text-anchor="middle" fill="#546e7a" font-size="6">Duration: 28-35 days</text>
+
+  <line x1="420" y1="90" x2="440" y2="90" stroke="#e91e63" stroke-width="1.5" marker-end="url(#bc)"/>
+
+  <!-- Step 4: Hatch -->
+  <rect x="440" y="55" width="140" height="70" rx="8" fill="#152a18" stroke="#66bb6a" stroke-width="1.5"/>
+  <text x="510" y="73" text-anchor="middle" fill="#66bb6a" font-size="9" font-weight="bold">HATCH</text>
+  <text x="510" y="88" text-anchor="middle" fill="#a5d6a7" font-size="7">Miniature adults!</text>
+  <text x="510" y="100" text-anchor="middle" fill="#a5d6a7" font-size="7">No larval stage</text>
+  <text x="510" y="112" text-anchor="middle" fill="#a5d6a7" font-size="7">Immediately independent</text>
+  <text x="510" y="122" text-anchor="middle" fill="#546e7a" font-size="6">Size: 1-2mm</text>
+
+  <!-- Return arrow -->
+  <path d="M510,125 L510,155 L80,155 L80,125" fill="none" stroke="#e91e63" stroke-width="1" marker-end="url(#bc)" stroke-dasharray="4,3"/>
+  <text x="300" y="168" text-anchor="middle" fill="#e91e63" font-size="8">Female can re-saddle within 1-2 weeks → cycle repeats 5-6x per year</text>
+
+  <!-- Population Growth -->
+  <rect x="30" y="185" width="540" height="100" rx="8" fill="#111822" stroke="#1e3050" stroke-width="1"/>
+  <text x="300" y="205" text-anchor="middle" fill="#4fc3f7" font-size="10" font-weight="bold">Colony Growth (starting with 10 shrimp)</text>
+
+  <!-- Growth bars -->
+  <text x="80" y="230" text-anchor="middle" fill="#546e7a" font-size="7">Month 0</text>
+  <rect x="60" y="235" width="40" height="10" rx="2" fill="#42a5f5"/>
+  <text x="105" y="244" fill="#81d4fa" font-size="8">10</text>
+
+  <text x="175" y="230" text-anchor="middle" fill="#546e7a" font-size="7">Month 3</text>
+  <rect x="155" y="235" width="60" height="10" rx="2" fill="#42a5f5"/>
+  <text x="220" y="244" fill="#81d4fa" font-size="8">30-40</text>
+
+  <text x="280" y="230" text-anchor="middle" fill="#546e7a" font-size="7">Month 6</text>
+  <rect x="260" y="235" width="100" height="10" rx="2" fill="#66bb6a"/>
+  <text x="365" y="244" fill="#a5d6a7" font-size="8">80-150</text>
+
+  <text x="390" y="230" text-anchor="middle" fill="#546e7a" font-size="7">Month 9</text>
+  <rect x="370" y="235" width="130" height="10" rx="2" fill="#ffa726"/>
+  <text x="505" y="244" fill="#ffcc80" font-size="8">200-300+</text>
+
+  <text x="300" y="272" text-anchor="middle" fill="#66bb6a" font-size="9">Colony doubles roughly every 3-4 months in ideal conditions</text>
+  <text x="300" y="284" text-anchor="middle" fill="#546e7a" font-size="8">10-gal tank sustains 200-400 adults | Start selling at month 5-6</text>
+</svg>

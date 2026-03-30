@@ -145,6 +145,8 @@ Neocaridina breed readily with zero intervention. If you have males and females 
 
 ### The Breeding Process
 
+![Neocaridina Breeding Cycle](../../diagrams/breeding-cycle-neocaridina.svg)
+
 1. Female develops **saddle** (eggs visible behind head through shell)
 2. Female molts -> releases pheromones
 3. Males go crazy swimming around (the "mating dance")

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 350" font-family="system-ui, sans-serif">
+  <rect width="600" height="350" rx="8" fill="#0a0e17"/>
+  <text x="300" y="25" text-anchor="middle" fill="#4fc3f7" font-size="14" font-weight="bold">Food Shrimp vs Ornamental: Economics at a Glance</text>
+
+  <!-- Left: Food Shrimp -->
+  <rect x="20" y="50" width="270" height="280" rx="10" fill="#1a2332" stroke="#4fc3f7" stroke-width="1.5"/>
+  <text x="155" y="75" text-anchor="middle" fill="#4fc3f7" font-size="12" font-weight="bold">FOOD SHRIMP</text>
+  <text x="155" y="92" text-anchor="middle" fill="#81d4fa" font-size="9">(4x IBC Biofloc, L. vannamei)</text>
+
+  <text x="35" y="118" fill="#546e7a" font-size="8">STARTUP</text>
+  <rect x="35" y="123" width="180" height="12" rx="3" fill="#ef5350" opacity="0.3"/>
+  <text x="225" y="133" fill="#ef9a9a" font-size="9">$800-2,000</text>
+
+  <text x="35" y="153" fill="#546e7a" font-size="8">PER CYCLE COST (90-120 days)</text>
+  <rect x="35" y="158" width="120" height="12" rx="3" fill="#ffa726" opacity="0.3"/>
+  <text x="165" y="168" fill="#ffcc80" font-size="9">$400-750</text>
+
+  <text x="35" y="188" fill="#546e7a" font-size="8">REVENUE / CYCLE</text>
+  <rect x="35" y="193" width="150" height="12" rx="3" fill="#66bb6a" opacity="0.3"/>
+  <text x="195" y="203" fill="#a5d6a7" font-size="9">$600-1,500</text>
+
+  <text x="35" y="228" fill="#546e7a" font-size="8">TIME TO FIRST HARVEST</text>
+  <text x="35" y="243" fill="#81d4fa" font-size="10">90-120 days</text>
+
+  <text x="35" y="263" fill="#546e7a" font-size="8">BREAK-EVEN</text>
+  <text x="35" y="278" fill="#81d4fa" font-size="10">Cycle 2-3 (6-12 months)</text>
+
+  <text x="35" y="298" fill="#546e7a" font-size="8">ANNUAL NET (moderate)</text>
+  <text x="35" y="313" fill="#66bb6a" font-size="12" font-weight="bold">$1,000-5,000</text>
+
+  <!-- Right: Ornamental -->
+  <rect x="310" y="50" width="270" height="280" rx="10" fill="#1a2332" stroke="#e91e63" stroke-width="1.5"/>
+  <text x="445" y="75" text-anchor="middle" fill="#e91e63" font-size="12" font-weight="bold">ORNAMENTAL</text>
+  <text x="445" y="92" text-anchor="middle" fill="#f48fb1" font-size="9">(10 tanks, Neocaridina)</text>
+
+  <text x="325" y="118" fill="#546e7a" font-size="8">STARTUP</text>
+  <rect x="325" y="123" width="120" height="12" rx="3" fill="#ef5350" opacity="0.3"/>
+  <text x="455" y="133" fill="#ef9a9a" font-size="9">$500-1,500</text>
+
+  <text x="325" y="153" fill="#546e7a" font-size="8">MONTHLY COST</text>
+  <rect x="325" y="158" width="60" height="12" rx="3" fill="#ffa726" opacity="0.3"/>
+  <text x="395" y="168" fill="#ffcc80" font-size="9">$80-170</text>
+
+  <text x="325" y="188" fill="#546e7a" font-size="8">MONTHLY REVENUE (established)</text>
+  <rect x="325" y="193" width="170" height="12" rx="3" fill="#66bb6a" opacity="0.3"/>
+  <text x="505" y="203" fill="#a5d6a7" font-size="9">$300-2,000</text>
+
+  <text x="325" y="228" fill="#546e7a" font-size="8">TIME TO FIRST SALE</text>
+  <text x="325" y="243" fill="#f48fb1" font-size="10">4-6 months (colony building)</text>
+
+  <text x="325" y="263" fill="#546e7a" font-size="8">BREAK-EVEN</text>
+  <text x="325" y="278" fill="#f48fb1" font-size="10">Month 3-5</text>
+
+  <text x="325" y="298" fill="#546e7a" font-size="8">ANNUAL NET (moderate)</text>
+  <text x="325" y="313" fill="#66bb6a" font-size="12" font-weight="bold">$2,000-15,000</text>
+</svg>

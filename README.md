@@ -1,6 +1,21 @@
 # Backyard Shrimp Farming Mega-Repo
 
+![License](https://img.shields.io/badge/license-MIT-green)
+![Guides](https://img.shields.io/badge/guides-14-blue)
+![Diagrams](https://img.shields.io/badge/SVG_diagrams-12-orange)
+![GitHub Repos](https://img.shields.io/badge/GitHub_repos_catalogued-200%2B-purple)
+![Code](https://img.shields.io/badge/working_code-4_projects-red)
+
 > The most comprehensive open-source resource for raising shrimp at home. From a single 10-gallon cherry shrimp tank to a full biofloc vannamei operation in your garage.
+
+<p align="center">
+  <img src="diagrams/biofloc-system.svg" alt="Biofloc System" width="48%"/>
+  <img src="diagrams/neocaridina-color-chart.svg" alt="Neocaridina Colors" width="48%"/>
+</p>
+<p align="center">
+  <img src="diagrams/vannamei-growth-timeline.svg" alt="Growth Timeline" width="48%"/>
+  <img src="diagrams/economics-comparison.svg" alt="Economics" width="48%"/>
+</p>
 
 ---
 
@@ -77,6 +92,32 @@ Whether you want to breed ornamental shrimp for profit or grow dinner-plate praw
 2. Set up the [Raspberry Pi Dashboard](hardware/raspberry-pi/)
 3. Use the [Water Quality Calculator](tools/water-calc.py) for dosing
 4. Browse the [Awesome List](resources/awesome-shrimp-farming.md) for more projects
+
+---
+
+## Visual Guides (12 SVG Diagrams)
+
+All diagrams are dark-themed SVGs that render in GitHub markdown.
+
+<p align="center">
+  <img src="diagrams/ras-system.svg" alt="RAS System" width="48%"/>
+  <img src="diagrams/aquaponics-system.svg" alt="Aquaponics" width="48%"/>
+</p>
+<p align="center">
+  <img src="diagrams/nitrogen-cycle.svg" alt="Nitrogen Cycle" width="48%"/>
+  <img src="diagrams/ph-ammonia-toxicity.svg" alt="pH Ammonia Toxicity" width="48%"/>
+</p>
+<p align="center">
+  <img src="diagrams/disease-flowchart.svg" alt="Disease Flowchart" width="48%"/>
+  <img src="diagrams/molting-cycle.svg" alt="Molting Cycle" width="48%"/>
+</p>
+<p align="center">
+  <img src="diagrams/acclimation-protocol.svg" alt="Acclimation" width="48%"/>
+  <img src="diagrams/ibc-tote-setup.svg" alt="IBC Setup" width="48%"/>
+</p>
+<p align="center">
+  <img src="diagrams/breeding-cycle-neocaridina.svg" alt="Breeding Cycle" width="48%"/>
+</p>
 
 ---
 

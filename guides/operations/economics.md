@@ -2,6 +2,8 @@
 
 > Real numbers. No hype. What it actually costs and what you can actually make.
 
+![Economics Comparison](../../diagrams/economics-comparison.svg)
+
 ## Food Shrimp: 4-Tank Biofloc System
 
 ### Startup Costs

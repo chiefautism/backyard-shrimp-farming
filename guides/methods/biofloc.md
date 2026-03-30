@@ -62,6 +62,8 @@ The whole thing forms clumps (flocs) 0.1-3mm in size that shrimp actively graze 
 
 ### Step-by-Step Setup
 
+![IBC Tote Setup Diagram](../../diagrams/ibc-tote-setup.svg)
+
 #### Step 1: Tank Preparation (Day 1)
 
 1. **Clean IBC tote** with freshwater (no soap, no chemicals)

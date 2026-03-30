@@ -98,6 +98,8 @@ Order **PL10-PL12** (10-12 days post-larvae) from a **SPF (Specific Pathogen Fre
 
 ### Acclimation Protocol (Critical - do NOT rush this)
 
+![Acclimation Protocol](../../diagrams/acclimation-protocol.svg)
+
 1. **Float bag** in tank for 15-20 minutes (temperature equalization)
 2. **Open bag**, add 1 cup of tank water every 10 minutes for 1-2 hours
 3. **Test salinity** difference - adjust at max 2 ppt per hour
@@ -178,6 +180,8 @@ Without salt, you must add individual minerals:
 ## Molting
 
 Shrimp grow by molting (shedding their exoskeleton). This is the most dangerous time in their lives.
+
+![Molting Cycle](../../diagrams/molting-cycle.svg)
 
 ### Frequency
 

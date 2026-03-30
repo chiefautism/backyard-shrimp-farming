@@ -201,6 +201,8 @@
 
 ## Diagnostic Flowchart
 
+![Disease Diagnostic Flowchart](../../diagrams/disease-flowchart.svg)
+
 **Shrimp are dying. What now?**
 
 ```

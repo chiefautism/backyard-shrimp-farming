@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 520" font-family="system-ui, sans-serif">
+  <rect width="700" height="520" rx="8" fill="#0a0e17"/>
+  <text x="350" y="28" text-anchor="middle" fill="#4fc3f7" font-size="15" font-weight="bold">Shrimp Are Dying - Diagnostic Flowchart</text>
+
+  <!-- Start -->
+  <rect x="260" y="45" width="180" height="35" rx="17" fill="#ef5350" opacity="0.8"/>
+  <text x="350" y="67" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">SHRIMP ARE DYING</text>
+
+  <!-- Branch: Speed -->
+  <line x1="350" y1="80" x2="350" y2="105" stroke="#4fc3f7" stroke-width="1.5"/>
+  <rect x="245" y="105" width="210" height="30" rx="6" fill="#1a2332" stroke="#ffa726" stroke-width="1.5"/>
+  <text x="350" y="124" text-anchor="middle" fill="#ffa726" font-size="10">How fast are they dying?</text>
+
+  <!-- Left: Sudden -->
+  <line x1="280" y1="135" x2="150" y2="165" stroke="#ef5350" stroke-width="1.5"/>
+  <rect x="50" y="165" width="200" height="28" rx="6" fill="#2a1515" stroke="#ef5350" stroke-width="1.5"/>
+  <text x="150" y="183" text-anchor="middle" fill="#ef9a9a" font-size="10" font-weight="bold">SUDDEN (hours)</text>
+
+  <!-- Right: Gradual -->
+  <line x1="420" y1="135" x2="550" y2="165" stroke="#ffa726" stroke-width="1.5"/>
+  <rect x="450" y="165" width="200" height="28" rx="6" fill="#2a2015" stroke="#ffa726" stroke-width="1.5"/>
+  <text x="550" y="183" text-anchor="middle" fill="#ffcc80" font-size="10" font-weight="bold">GRADUAL (days)</text>
+
+  <!-- Sudden branch checks -->
+  <line x1="150" y1="193" x2="150" y2="215" stroke="#ef5350" stroke-width="1"/>
+
+  <rect x="30" y="215" width="110" height="45" rx="5" fill="#1a2332" stroke="#ef5350" stroke-width="1"/>
+  <text x="85" y="233" text-anchor="middle" fill="#ef9a9a" font-size="8">Check DO</text>
+  <text x="85" y="245" text-anchor="middle" fill="#ef9a9a" font-size="7">LOW? Emergency</text>
+  <text x="85" y="255" text-anchor="middle" fill="#ef9a9a" font-size="7">aeration NOW</text>
+
+  <rect x="155" y="215" width="110" height="45" rx="5" fill="#1a2332" stroke="#ef5350" stroke-width="1"/>
+  <text x="210" y="233" text-anchor="middle" fill="#ef9a9a" font-size="8">Check Ammonia</text>
+  <text x="210" y="245" text-anchor="middle" fill="#ef9a9a" font-size="7">HIGH? 50% water</text>
+  <text x="210" y="255" text-anchor="middle" fill="#ef9a9a" font-size="7">change, stop feed</text>
+
+  <rect x="30" y="275" width="110" height="45" rx="5" fill="#1a2332" stroke="#ef5350" stroke-width="1"/>
+  <text x="85" y="293" text-anchor="middle" fill="#ef9a9a" font-size="8">Check Temp</text>
+  <text x="85" y="305" text-anchor="middle" fill="#ef9a9a" font-size="7">Extreme? Adjust</text>
+  <text x="85" y="315" text-anchor="middle" fill="#ef9a9a" font-size="7">heater/cooling</text>
+
+  <rect x="155" y="275" width="110" height="45" rx="5" fill="#1a2332" stroke="#ef5350" stroke-width="1"/>
+  <text x="210" y="293" text-anchor="middle" fill="#ef9a9a" font-size="8">Chemical?</text>
+  <text x="210" y="305" text-anchor="middle" fill="#ef9a9a" font-size="7">Spray/soap/copper</text>
+  <text x="210" y="315" text-anchor="middle" fill="#ef9a9a" font-size="7">contamination?</text>
+
+  <!-- Gradual branch checks -->
+  <line x1="550" y1="193" x2="550" y2="215" stroke="#ffa726" stroke-width="1"/>
+
+  <rect x="440" y="215" width="110" height="45" rx="5" fill="#1a2332" stroke="#ffa726" stroke-width="1"/>
+  <text x="495" y="233" text-anchor="middle" fill="#ffcc80" font-size="8">White spots?</text>
+  <text x="495" y="245" text-anchor="middle" fill="#ef5350" font-size="7" font-weight="bold">WSSV - FATAL</text>
+  <text x="495" y="255" text-anchor="middle" fill="#ef9a9a" font-size="7">Cull, disinfect</text>
+
+  <rect x="565" y="215" width="110" height="45" rx="5" fill="#1a2332" stroke="#ffa726" stroke-width="1"/>
+  <text x="620" y="233" text-anchor="middle" fill="#ffcc80" font-size="8">Pale liver?</text>
+  <text x="620" y="245" text-anchor="middle" fill="#ffcc80" font-size="7">AHPND/EMS</text>
+  <text x="620" y="255" text-anchor="middle" fill="#ffcc80" font-size="7">Probiotics, reduce feed</text>
+
+  <rect x="440" y="275" width="110" height="45" rx="5" fill="#1a2332" stroke="#ffa726" stroke-width="1"/>
+  <text x="495" y="293" text-anchor="middle" fill="#ffcc80" font-size="8">White feces?</text>
+  <text x="495" y="305" text-anchor="middle" fill="#ffcc80" font-size="7">WFD - Garlic in</text>
+  <text x="495" y="315" text-anchor="middle" fill="#ffcc80" font-size="7">feed, probiotics</text>
+
+  <rect x="565" y="275" width="110" height="45" rx="5" fill="#1a2332" stroke="#ffa726" stroke-width="1"/>
+  <text x="620" y="293" text-anchor="middle" fill="#ffcc80" font-size="8">Soft shell?</text>
+  <text x="620" y="305" text-anchor="middle" fill="#ffcc80" font-size="7">Mineral deficiency</text>
+  <text x="620" y="315" text-anchor="middle" fill="#ffcc80" font-size="7">Add Ca/Mg/GH+</text>
+
+  <!-- Ornamental section -->
+  <rect x="280" y="345" width="140" height="28" rx="6" fill="#1a2332" stroke="#ce93d8" stroke-width="1.5"/>
+  <text x="350" y="363" text-anchor="middle" fill="#ce93d8" font-size="10" font-weight="bold">ORNAMENTAL SHRIMP</text>
+
+  <rect x="30" y="385" width="130" height="42" rx="5" fill="#1a2332" stroke="#ce93d8" stroke-width="1"/>
+  <text x="95" y="401" text-anchor="middle" fill="#e1bee7" font-size="8">Fuzzy coating?</text>
+  <text x="95" y="413" text-anchor="middle" fill="#ce93d8" font-size="7">Vorticella - Salt dip</text>
+  <text x="95" y="423" text-anchor="middle" fill="#ce93d8" font-size="7">1 tbsp/L, 30-60s</text>
+
+  <rect x="175" y="385" width="130" height="42" rx="5" fill="#1a2332" stroke="#ce93d8" stroke-width="1"/>
+  <text x="240" y="401" text-anchor="middle" fill="#e1bee7" font-size="8">Worms on head?</text>
+  <text x="240" y="413" text-anchor="middle" fill="#ce93d8" font-size="7">Scutariella - Salt dip</text>
+  <text x="240" y="423" text-anchor="middle" fill="#ce93d8" font-size="7">Repeat in 7 days</text>
+
+  <rect x="320" y="385" width="130" height="42" rx="5" fill="#1a2332" stroke="#ce93d8" stroke-width="1"/>
+  <text x="385" y="401" text-anchor="middle" fill="#e1bee7" font-size="8">White ring?</text>
+  <text x="385" y="413" text-anchor="middle" fill="#ce93d8" font-size="7">Failed molt - Check</text>
+  <text x="385" y="423" text-anchor="middle" fill="#ce93d8" font-size="7">GH, add minerals</text>
+
+  <rect x="465" y="385" width="130" height="42" rx="5" fill="#1a2332" stroke="#ce93d8" stroke-width="1"/>
+  <text x="530" y="401" text-anchor="middle" fill="#e1bee7" font-size="8">Deaths after WC?</text>
+  <text x="530" y="413" text-anchor="middle" fill="#ce93d8" font-size="7">Parameter shock</text>
+  <text x="530" y="423" text-anchor="middle" fill="#ce93d8" font-size="7">Match temp/TDS/pH</text>
+
+  <!-- Bottom banner -->
+  <rect x="100" y="450" width="500" height="55" rx="8" fill="#152a18" stroke="#66bb6a" stroke-width="1.5"/>
+  <text x="350" y="470" text-anchor="middle" fill="#66bb6a" font-size="11" font-weight="bold">FIRST RESPONSE (Always)</text>
+  <text x="350" y="488" text-anchor="middle" fill="#a5d6a7" font-size="9">1. Test ALL parameters immediately  2. Increase aeration  3. Stop feeding  4. 30% water change if ammonia/nitrite high</text>
+  <text x="350" y="502" text-anchor="middle" fill="#a5d6a7" font-size="9">5. Remove dead shrimp  6. Check heater/aerator working  7. Document everything</text>
+</svg>

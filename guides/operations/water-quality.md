@@ -54,6 +54,8 @@ Temperature controls metabolic rate, dissolved oxygen capacity, and disease susc
 - Affects bacterial activity in biofilters
 - Rapid pH changes are lethal
 
+![pH vs Ammonia Toxicity](../../diagrams/ph-ammonia-toxicity.svg)
+
 **pH and ammonia toxicity**:
 
 | pH | % of Total Ammonia as Toxic NH3 (at 28°C) |

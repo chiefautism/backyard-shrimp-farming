@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300" font-family="system-ui, sans-serif">
+  <rect width="500" height="300" rx="8" fill="#0a0e17"/>
+  <text x="250" y="25" text-anchor="middle" fill="#4fc3f7" font-size="14" font-weight="bold">pH vs Ammonia Toxicity (at 28°C)</text>
+  <text x="250" y="42" text-anchor="middle" fill="#546e7a" font-size="9">Higher pH = MORE toxic ammonia. This is why pH matters.</text>
+
+  <!-- Axes -->
+  <line x1="80" y1="240" x2="460" y2="240" stroke="#2a3050" stroke-width="1.5"/>
+  <line x1="80" y1="60" x2="80" y2="240" stroke="#2a3050" stroke-width="1.5"/>
+
+  <!-- Y axis labels -->
+  <text x="15" y="155" text-anchor="middle" fill="#546e7a" font-size="9" transform="rotate(-90,15,155)">% of TAN as Toxic NH3</text>
+  <text x="70" y="243" text-anchor="end" fill="#546e7a" font-size="8">0%</text>
+  <text x="70" y="207" text-anchor="end" fill="#546e7a" font-size="8">10%</text>
+  <text x="70" y="171" text-anchor="end" fill="#546e7a" font-size="8">20%</text>
+  <text x="70" y="135" text-anchor="end" fill="#546e7a" font-size="8">30%</text>
+  <text x="70" y="99" text-anchor="end" fill="#546e7a" font-size="8">40%</text>
+  <text x="70" y="63" text-anchor="end" fill="#546e7a" font-size="8">50%</text>
+
+  <!-- Y grid -->
+  <line x1="80" y1="204" x2="460" y2="204" stroke="#1a2030" stroke-width="0.5"/>
+  <line x1="80" y1="168" x2="460" y2="168" stroke="#1a2030" stroke-width="0.5"/>
+  <line x1="80" y1="132" x2="460" y2="132" stroke="#1a2030" stroke-width="0.5"/>
+  <line x1="80" y1="96" x2="460" y2="96" stroke="#1a2030" stroke-width="0.5"/>
+
+  <!-- X axis labels -->
+  <text x="270" y="270" text-anchor="middle" fill="#546e7a" font-size="9">pH</text>
+  <text x="118" y="258" text-anchor="middle" fill="#546e7a" font-size="8">7.0</text>
+  <text x="194" y="258" text-anchor="middle" fill="#546e7a" font-size="8">7.5</text>
+  <text x="270" y="258" text-anchor="middle" fill="#546e7a" font-size="8">8.0</text>
+  <text x="346" y="258" text-anchor="middle" fill="#546e7a" font-size="8">8.5</text>
+  <text x="422" y="258" text-anchor="middle" fill="#546e7a" font-size="8">9.0</text>
+
+  <!-- Exponential curve (approximate) -->
+  <!-- pH 7.0=1%, 7.5=3%, 8.0=8%, 8.5=22%, 9.0=50% -->
+  <!-- Y: 0%=240, 10%=204, 20%=168, 30%=132, 40%=96, 50%=60 -->
+  <polyline points="118,236 156,234 194,229 232,218 270,211 308,192 346,160 384,120 422,60"
+    fill="none" stroke="#ef5350" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Data points with labels -->
+  <circle cx="118" cy="236" r="5" fill="#66bb6a"/>
+  <text x="118" y="226" text-anchor="middle" fill="#a5d6a7" font-size="8" font-weight="bold">1%</text>
+
+  <circle cx="194" cy="229" r="5" fill="#66bb6a"/>
+  <text x="194" y="219" text-anchor="middle" fill="#a5d6a7" font-size="8" font-weight="bold">3%</text>
+
+  <circle cx="270" cy="211" r="5" fill="#ffa726"/>
+  <text x="270" y="201" text-anchor="middle" fill="#ffcc80" font-size="8" font-weight="bold">8%</text>
+
+  <circle cx="346" cy="160" r="5" fill="#ef5350"/>
+  <text x="346" y="150" text-anchor="middle" fill="#ef9a9a" font-size="8" font-weight="bold">22%</text>
+
+  <circle cx="422" cy="60" r="5" fill="#ef5350"/>
+  <text x="422" y="50" text-anchor="middle" fill="#ef5350" font-size="8" font-weight="bold">50%</text>
+
+  <!-- Danger zones -->
+  <rect x="308" y="60" width="155" height="180" rx="0" fill="#ef5350" opacity="0.05"/>
+  <text x="385" y="78" text-anchor="middle" fill="#ef5350" font-size="9" font-weight="bold">DANGER</text>
+  <text x="385" y="90" text-anchor="middle" fill="#ef5350" font-size="7">ZONE</text>
+
+  <!-- Safe zone label -->
+  <rect x="80" y="60" width="150" height="180" rx="0" fill="#66bb6a" opacity="0.03"/>
+  <text x="155" y="78" text-anchor="middle" fill="#66bb6a" font-size="9">Safe zone</text>
+
+  <!-- Bottom note -->
+  <text x="250" y="290" text-anchor="middle" fill="#ffa726" font-size="8">At pH 8.5, ammonia is 22x more toxic than at pH 7.0 - even with the same TAN reading</text>
+</svg>

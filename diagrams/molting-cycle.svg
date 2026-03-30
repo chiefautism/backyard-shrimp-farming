@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 380" font-family="system-ui, sans-serif">
+  <defs>
+    <marker id="mc" markerWidth="7" markerHeight="5" refX="7" refY="2.5" orient="auto">
+      <path d="M0,0 L7,2.5 L0,5 Z" fill="#4fc3f7"/>
+    </marker>
+  </defs>
+  <rect width="500" height="380" rx="8" fill="#0a0e17"/>
+  <text x="250" y="25" text-anchor="middle" fill="#4fc3f7" font-size="14" font-weight="bold">The Shrimp Molting Cycle</text>
+
+  <!-- Circular cycle -->
+  <!-- Stage 1: Pre-molt -->
+  <rect x="175" y="45" width="150" height="50" rx="8" fill="#1a2332" stroke="#ffa726" stroke-width="2"/>
+  <text x="250" y="65" text-anchor="middle" fill="#ffa726" font-size="10" font-weight="bold">1. PRE-MOLT</text>
+  <text x="250" y="80" text-anchor="middle" fill="#ffcc80" font-size="8">Stops feeding, less active</text>
+  <text x="250" y="90" text-anchor="middle" fill="#ffcc80" font-size="7">New shell forming underneath</text>
+
+  <!-- Arrow down-right -->
+  <path d="M325,95 Q400,120 400,160" fill="none" stroke="#4fc3f7" stroke-width="1.5" marker-end="url(#mc)"/>
+
+  <!-- Stage 2: Ecdysis (actual molt) -->
+  <rect x="310" y="160" width="160" height="55" rx="8" fill="#2a1515" stroke="#ef5350" stroke-width="2"/>
+  <text x="390" y="180" text-anchor="middle" fill="#ef5350" font-size="10" font-weight="bold">2. ECDYSIS</text>
+  <text x="390" y="193" text-anchor="middle" fill="#ef9a9a" font-size="8">Old shell splits and sheds</text>
+  <text x="390" y="204" text-anchor="middle" fill="#ef9a9a" font-size="7">Takes seconds to minutes</text>
+  <text x="390" y="213" text-anchor="middle" fill="#ef5350" font-size="7" font-weight="bold">MOST VULNERABLE TIME</text>
+
+  <!-- Arrow down-left -->
+  <path d="M350,215 Q300,250 250,265" fill="none" stroke="#4fc3f7" stroke-width="1.5" marker-end="url(#mc)"/>
+
+  <!-- Stage 3: Post-molt -->
+  <rect x="150" y="265" width="200" height="55" rx="8" fill="#1a2332" stroke="#42a5f5" stroke-width="2"/>
+  <text x="250" y="285" text-anchor="middle" fill="#42a5f5" font-size="10" font-weight="bold">3. POST-MOLT (Soft Shell)</text>
+  <text x="250" y="298" text-anchor="middle" fill="#90caf9" font-size="8">Shell soft for 1-4 hours</text>
+  <text x="250" y="309" text-anchor="middle" fill="#90caf9" font-size="7">Absorbs water, expands ~15%</text>
+  <text x="250" y="318" text-anchor="middle" fill="#ef5350" font-size="7">Cannibalism risk highest here</text>
+
+  <!-- Arrow up-left -->
+  <path d="M150,290 Q80,250 80,200" fill="none" stroke="#4fc3f7" stroke-width="1.5" marker-end="url(#mc)"/>
+
+  <!-- Stage 4: Inter-molt -->
+  <rect x="20" y="120" width="160" height="80" rx="8" fill="#152a18" stroke="#66bb6a" stroke-width="2"/>
+  <text x="100" y="140" text-anchor="middle" fill="#66bb6a" font-size="10" font-weight="bold">4. INTER-MOLT</text>
+  <text x="100" y="155" text-anchor="middle" fill="#a5d6a7" font-size="8">Shell hardens (Ca + Mg)</text>
+  <text x="100" y="168" text-anchor="middle" fill="#a5d6a7" font-size="8">Active feeding, growing</text>
+  <text x="100" y="181" text-anchor="middle" fill="#a5d6a7" font-size="7">Longest phase (days-weeks)</text>
+  <text x="100" y="194" text-anchor="middle" fill="#66bb6a" font-size="7">GROWTH HAPPENS HERE</text>
+
+  <!-- Arrow up-right -->
+  <path d="M150,130 Q200,90 175,70" fill="none" stroke="#4fc3f7" stroke-width="1.5" marker-end="url(#mc)"/>
+
+  <!-- Frequency table -->
+  <rect x="100" y="335" width="300" height="35" rx="6" fill="#111822" stroke="#1e3050" stroke-width="1"/>
+  <text x="250" y="350" text-anchor="middle" fill="#546e7a" font-size="8">Molt frequency: PL every 2-3 days | Juvenile every 5-7 days | Adult every 14-21 days</text>
+  <text x="250" y="363" text-anchor="middle" fill="#ffa726" font-size="8">Minerals needed: Ca >200mg/L | Mg >50mg/L | Alkalinity >100mg/L</text>
+</svg>
