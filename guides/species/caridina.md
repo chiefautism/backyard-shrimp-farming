@@ -235,6 +235,20 @@ Slower production than Neocaridina but higher per-unit value.
 | TDS climbing | Evaporation concentrating minerals | Top off with pure RO water (not remineralized) |
 | Babies dying | Fluctuating parameters, no biofilm | Stabilize params, add BacterAE, mature the tank longer |
 
+---
+
+## Watch & Learn
+
+| Topic | YouTube Search |
+|-------|---------------|
+| Crystal red shrimp care | [Search](https://www.youtube.com/results?search_query=crystal+red+shrimp+care+guide+caridina) |
+| Taiwan bee shrimp | [Search](https://www.youtube.com/results?search_query=taiwan+bee+shrimp+breeding+care) |
+| Caridina tank setup | [Search](https://www.youtube.com/results?search_query=caridina+tank+setup+RO+water+buffering+substrate) |
+| RO water for shrimp | [Search](https://www.youtube.com/results?search_query=RO+water+setup+shrimp+remineralization) |
+| Salty Shrimp GH+ | [Search](https://www.youtube.com/results?search_query=salty+shrimp+GH+remineralize+caridina) |
+
+---
+
 ### The Golden Rule of Caridina
 
 **Do less.** The biggest killer of Caridina is keepers fiddling too much. Set up properly, cycle thoroughly, add shrimp, then **leave the tank alone** as much as possible. Small weekly water changes (10%), feed sparingly, test weekly, and resist the urge to fix what isn't broken.

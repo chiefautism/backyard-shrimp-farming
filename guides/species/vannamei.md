@@ -262,6 +262,20 @@ Fix: Test and supplement calcium/magnesium. Check alkalinity.
 
 ---
 
+---
+
+## Watch & Learn
+
+| Topic | YouTube Search |
+|-------|---------------|
+| Vannamei backyard farming | [Search](https://www.youtube.com/results?search_query=vannamei+shrimp+farming+backyard) |
+| Post-larvae acclimation | [Search](https://www.youtube.com/results?search_query=vannamei+post+larvae+acclimation) |
+| Biofloc shrimp full cycle | [Search](https://www.youtube.com/results?search_query=biofloc+shrimp+farming+full+cycle) |
+| Shrimp harvest backyard | [Search](https://www.youtube.com/results?search_query=vannamei+shrimp+harvest+backyard) |
+| Indoor shrimp farming | [Search](https://www.youtube.com/results?search_query=indoor+shrimp+farming+vannamei+2025) |
+
+---
+
 ## Seasonal Planning (Northern Hemisphere)
 
 | Month | Activity |

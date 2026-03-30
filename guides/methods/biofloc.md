@@ -308,6 +308,21 @@ Stock shrimp when:
 | Side business | 4-8 | Hakko HK-80L or 2x HK-40L | 1-2 hours/day | Need organized routine |
 | Serious | 8-16 | Regenerative blower | 2-3 hours/day | Need dedicated space |
 
+---
+
+## Watch & Learn
+
+| Topic | YouTube Search |
+|-------|---------------|
+| Biofloc technology explained | [Search](https://www.youtube.com/results?search_query=biofloc+technology+explained+simple) |
+| Biofloc shrimp farming tutorial | [Search](https://www.youtube.com/results?search_query=biofloc+shrimp+farming+tutorial+step+by+step) |
+| IBC tote shrimp farm build | [Search](https://www.youtube.com/results?search_query=IBC+tote+shrimp+farm+build+setup) |
+| Biofloc carbon molasses | [Search](https://www.youtube.com/results?search_query=biofloc+carbon+source+molasses+shrimp) |
+| Imhoff cone floc volume | [Search](https://www.youtube.com/results?search_query=biofloc+floc+volume+imhoff+cone+shrimp) |
+| Biofloc alkalinity baking soda | [Search](https://www.youtube.com/results?search_query=biofloc+alkalinity+management+baking+soda) |
+
+---
+
 ### Tips for Scaling
 
 1. **Stagger cycles** - don't start all tanks at once. Start one, learn, then add.

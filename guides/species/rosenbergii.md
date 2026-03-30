@@ -239,3 +239,13 @@ Unlike Neocaridina (which breed easily in captivity), rosenbergii larvae require
 
 **Choose vannamei** if you want fast turnover and are OK with salt.
 **Choose rosenbergii** if you want freshwater simplicity and bigger animals, and can wait 6-9 months.
+
+---
+
+## Watch & Learn
+
+| Topic | YouTube Search |
+|-------|---------------|
+| Freshwater prawn farming | [Search](https://www.youtube.com/results?search_query=macrobrachium+rosenbergii+freshwater+prawn+farming) |
+| Giant freshwater prawn backyard | [Search](https://www.youtube.com/results?search_query=giant+freshwater+prawn+backyard+farming) |
+| Prawn vs shrimp farming | [Search](https://www.youtube.com/results?search_query=freshwater+prawn+vs+shrimp+farming+comparison) |

@@ -334,6 +334,21 @@ To maintain and improve color quality:
 | Shrimp not eating | Stress, bad water quality | Test parameters, do partial water change |
 | Baby shrimp disappearing | Filter intake, fish predators, poor food | Use sponge filter only, no fish in shrimp tank, ensure biofilm |
 
+---
+
+## Watch & Learn
+
+| Topic | YouTube Search |
+|-------|---------------|
+| Cherry shrimp complete guide | [Search](https://www.youtube.com/results?search_query=cherry+shrimp+complete+care+guide) |
+| Neocaridina breeding | [Search](https://www.youtube.com/results?search_query=neocaridina+breeding+guide+tips) |
+| Cherry shrimp for profit | [Search](https://www.youtube.com/results?search_query=cherry+shrimp+breeding+for+profit) |
+| Shrimp tank setup | [Search](https://www.youtube.com/results?search_query=cherry+shrimp+tank+setup+beginner+planted) |
+| Color grading & culling | [Search](https://www.youtube.com/results?search_query=neocaridina+color+grading+culling) |
+| Shipping live shrimp | [Search](https://www.youtube.com/results?search_query=how+to+ship+live+shrimp+safely) |
+
+---
+
 ### The #1 Rule for Neocaridina
 
 **Stability over perfection.** Don't chase perfect numbers. Find stable parameters in your water supply and let them be. Neocaridina adapt. Chasing pH and constantly adjusting kills more shrimp than "imperfect" but stable water ever will.

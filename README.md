@@ -64,6 +64,7 @@ Whether you want to breed ornamental shrimp for profit or grow dinner-plate praw
 | Resource | Description |
 |----------|-------------|
 | [GitHub Repos (Awesome List)](resources/awesome-shrimp-farming.md) | Every shrimp/aquaculture repo on GitHub, categorized and verified. |
+| [Video Resources](resources/videos.md) | Curated YouTube channels + search links for every topic. |
 | [Community & Learning](resources/community.md) | YouTube channels, subreddits, forums, Facebook groups. |
 
 ---
