@@ -2,6 +2,18 @@
 
 > The premium tier. Higher value, higher stakes, higher reward. For keepers who've mastered Neocaridina and want a challenge.
 
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Caridina-cf-cantonensis-crystal-red.jpg/400px-Caridina-cf-cantonensis-crystal-red.jpg" alt="Crystal Red Shrimp" width="300"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Caridina-cf-cantonensis-black-bee.jpg/300px-Caridina-cf-cantonensis-black-bee.jpg" alt="Black Bee Shrimp" width="220"/>
+  <br/><sub><i>Left: Crystal Red Shrimp (CRS). Right: Black Bee Shrimp. Photos: Wikimedia Commons, CC BY-SA</i></sub>
+</p>
+
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Caridina-cf-cantonensis-blue-tiger.jpg/300px-Caridina-cf-cantonensis-blue-tiger.jpg" alt="Blue Tiger" width="220"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Caridina-cf-cantonensis-snow-white.jpg/300px-Caridina-cf-cantonensis-snow-white.jpg" alt="Snow White" width="220"/>
+  <br/><sub><i>Left: Blue Tiger. Right: Snow White. Photos: Wikimedia Commons, CC BY-SA</i></sub>
+</p>
+
 ## Overview
 
 | Attribute | Value |

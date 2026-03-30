@@ -2,6 +2,11 @@
 
 > The most farmed shrimp species on Earth. Over 70% of global production. Fast-growing, tough, and the backbone of the backyard shrimp farming movement.
 
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Litopenaeus_vannamei_specimen.jpg/500px-Litopenaeus_vannamei_specimen.jpg" alt="Litopenaeus vannamei specimen" width="400"/>
+  <br/><sub><i>L. vannamei specimen. Photo: Wikimedia Commons, CC BY-SA 3.0</i></sub>
+</p>
+
 ## Overview
 
 | Attribute | Value |
@@ -204,6 +209,11 @@ Shrimp grow by molting (shedding their exoskeleton). This is the most dangerous 
 - Soft shell for 1-2 hours = vulnerable to cannibalism
 - Shrimp hide during this time
 - Providing shelter (biofloc itself, PVC pipes, mesh) reduces cannibalism
+
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Freshwater_shrimp_molted_skin.jpg/400px-Freshwater_shrimp_molted_skin.jpg" alt="Molted shrimp exuvia" width="300"/>
+  <br/><sub><i>A molted exoskeleton (exuvia). Leave it in the tank — shrimp eat it for calcium. Photo: Wikimedia Commons</i></sub>
+</p>
 
 ### Requirements for Successful Molting
 

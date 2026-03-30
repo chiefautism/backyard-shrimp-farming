@@ -9,6 +9,15 @@
 > The most comprehensive open-source resource for raising shrimp at home. From a single 10-gallon cherry shrimp tank to a full biofloc vannamei operation in your garage.
 
 <p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Red_Cherry_Shrimp_1.jpg/500px-Red_Cherry_Shrimp_1.jpg" alt="Cherry Shrimp" width="32%"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Litopenaeus_vannamei_specimen.jpg/500px-Litopenaeus_vannamei_specimen.jpg" alt="Vannamei" width="32%"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Caridina-cf-cantonensis-crystal-red.jpg/400px-Caridina-cf-cantonensis-crystal-red.jpg" alt="Crystal Red Shrimp" width="32%"/>
+</p>
+<p align="center">
+  <sub><i>Cherry Shrimp (Neocaridina) &bull; Pacific White Shrimp (L. vannamei) &bull; Crystal Red Shrimp (Caridina) — Photos: Wikimedia Commons, CC BY-SA</i></sub>
+</p>
+
+<p align="center">
   <img src="diagrams/biofloc-system.svg" alt="Biofloc System" width="48%"/>
   <img src="diagrams/neocaridina-color-chart.svg" alt="Neocaridina Colors" width="48%"/>
 </p>

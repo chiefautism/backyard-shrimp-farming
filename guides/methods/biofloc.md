@@ -13,6 +13,11 @@ Biofloc is a community of microorganisms - bacteria, protozoa, microalgae, and o
 
 This is the dominant method for backyard vannamei farming worldwide.
 
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Shrimp_pond.jpg/500px-Shrimp_pond.jpg" alt="Shrimp grow-out pond" width="400"/>
+  <br/><sub><i>Shrimp grow-out pond. Photo: Wikimedia Commons, CC BY-SA</i></sub>
+</p>
+
 ![Biofloc System Overview](../../diagrams/biofloc-system.svg)
 
 ## How it Works (The Science)

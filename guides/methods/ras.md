@@ -6,6 +6,11 @@
 
 A RAS circulates water through external filtration components that remove waste and maintain water quality. Unlike biofloc (where the water IS the filter), RAS separates the grow tank from the filtration.
 
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Construction_of_Freshwater_Shrimp_Farm%2C_Pekalongan.jpg/500px-Construction_of_Freshwater_Shrimp_Farm%2C_Pekalongan.jpg" alt="Shrimp farm construction" width="400"/>
+  <br/><sub><i>Constructing a freshwater shrimp farm. Photo: Wikimedia Commons, CC BY-SA</i></sub>
+</p>
+
 ![RAS System Overview](../../diagrams/ras-system.svg)
 
 ### RAS vs Biofloc

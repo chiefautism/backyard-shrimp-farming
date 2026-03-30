@@ -2,6 +2,11 @@
 
 > True freshwater. No salt needed. Grows to the size of a small lobster. The alternative for people who don't want to deal with salinity.
 
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Macrobrachium_rosenbergii.jpg/500px-Macrobrachium_rosenbergii.jpg" alt="Macrobrachium rosenbergii" width="400"/>
+  <br/><sub><i>M. rosenbergii — note the large blue claws of a dominant male. Photo: Wikimedia Commons</i></sub>
+</p>
+
 ## Overview
 
 | Attribute | Value |

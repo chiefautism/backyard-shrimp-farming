@@ -2,6 +2,17 @@
 
 > The gateway drug of shrimp keeping. Hardy, colorful, breeds like crazy, and can make you real money.
 
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Red_Cherry_Shrimp_1.jpg/500px-Red_Cherry_Shrimp_1.jpg" alt="Red Cherry Shrimp" width="400"/>
+  <br/><sub><i>Red Cherry Shrimp (Neocaridina davidi). Photo: Wikimedia Commons, CC BY-SA</i></sub>
+</p>
+
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Blue_N._Davidi_Shrimps.jpg/400px-Blue_N._Davidi_Shrimps.jpg" alt="Blue Dream Neocaridina" width="300"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Neocaridina_heteropoda.jpg/400px-Neocaridina_heteropoda.jpg" alt="Neocaridina heteropoda" width="300"/>
+  <br/><sub><i>Left: Blue Dream morph. Right: Wild-type coloration. Photos: Wikimedia Commons</i></sub>
+</p>
+
 ## Overview
 
 | Attribute | Value |
@@ -133,6 +144,11 @@ Higher grade = higher price = what you want to breed toward.
 
 Neocaridina breed readily with zero intervention. If you have males and females in appropriate water, they WILL breed.
 
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Neocaridina_heteropoda._Femelle_avec_%C5%93ufs..JPG/400px-Neocaridina_heteropoda._Femelle_avec_%C5%93ufs..JPG" alt="Berried female cherry shrimp" width="350"/>
+  <br/><sub><i>Berried female carrying eggs under her tail. Photo: Wikimedia Commons, CC BY-SA</i></sub>
+</p>
+
 ### Sexing
 
 | Feature | Male | Female |
@@ -165,6 +181,11 @@ Neocaridina breed readily with zero intervention. If you have males and females 
 - Abundant hiding spots (java moss!)
 - Don't overclean the tank (biofilm is food)
 - Multiple females berried simultaneously in a healthy colony
+
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Neocaridina_davidi_shrimplet.jpg/400px-Neocaridina_davidi_shrimplet.jpg" alt="Neocaridina shrimplet" width="300"/>
+  <br/><sub><i>Newly hatched shrimplet — a miniature adult, immediately independent. Photo: Wikimedia Commons</i></sub>
+</p>
 
 ### Colony Growth
 
