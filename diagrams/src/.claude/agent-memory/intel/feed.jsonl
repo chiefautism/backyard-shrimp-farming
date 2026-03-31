@@ -1,0 +1,1 @@
+{"ts":1774918897,"tool":"Bash","cmd":"cd /Users/adaboost/work/backyard-shrimp-farming/diagrams/src\n\n# Replace \\n with <br> in all .mmd files for proper Mermaid line breaks\nfor f in *.mmd; do\n  # Use perl to replace literal \\n inside quote\n"}

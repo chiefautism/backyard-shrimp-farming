@@ -1,14 +1,14 @@
 flowchart TD
-    A["🦐 Shrimp Waste\n+ Uneaten Feed"] -->|decomposes| B
-    B["⚠️ AMMONIA (NH₃/NH₄⁺)\nTOXIC > 0.1 mg/L"]
-    B -->|"Nitrosomonas\nbacteria"| C
-    C["⚠️ NITRITE (NO₂⁻)\nTOXIC > 0.5 mg/L"]
-    C -->|"Nitrobacter\nbacteria"| D
-    D["✅ NITRATE (NO₃⁻)\nLow toxicity < 50 mg/L"]
-    D -->|"removed by"| E["Water Changes\nor Plants"]
+    A["🦐 Shrimp Waste<br>+ Uneaten Feed"] -->|decomposes| B
+    B["⚠️ AMMONIA (NH₃/NH₄⁺)<br>TOXIC > 0.1 mg/L"]
+    B -->|"Nitrosomonas<br>bacteria"| C
+    C["⚠️ NITRITE (NO₂⁻)<br>TOXIC > 0.5 mg/L"]
+    C -->|"Nitrobacter<br>bacteria"| D
+    D["✅ NITRATE (NO₃⁻)<br>Low toxicity < 50 mg/L"]
+    D -->|"removed by"| E["Water Changes<br>or Plants"]
 
-    B -.->|"BIOFLOC\nSHORTCUT"| F["Heterotrophic Bacteria\n+ Carbon Source"]
-    F -.->|"direct\nassimilation"| G["Bacterial Biomass\n= Shrimp Food!"]
+    B -.->|"BIOFLOC<br>SHORTCUT"| F["Heterotrophic Bacteria<br>+ Carbon Source"]
+    F -.->|"direct<br>assimilation"| G["Bacterial Biomass<br>= Shrimp Food!"]
 
     style A fill:#fff9c4,stroke:#f9a825,stroke-width:2px
     style B fill:#ffcdd2,stroke:#c62828,stroke-width:3px

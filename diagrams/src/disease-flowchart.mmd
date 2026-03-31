@@ -1,27 +1,27 @@
 flowchart TD
     START(["🚨 SHRIMP ARE DYING"]) --> Q1{"How fast?"}
 
-    Q1 -->|"Hours\n(sudden)"| SUDDEN
-    Q1 -->|"Days\n(gradual)"| GRADUAL
+    Q1 -->|"Hours<br>(sudden)"| SUDDEN
+    Q1 -->|"Days<br>(gradual)"| GRADUAL
 
     subgraph SUDDEN["⚡ SUDDEN DEATH"]
         direction TB
-        S1{"Check DO"} -->|LOW| S1A["🔴 Emergency aeration!\nBattery pump NOW"]
-        S2{"Check Ammonia"} -->|HIGH| S2A["🔴 50% water change\nStop feeding"]
+        S1{"Check DO"} -->|LOW| S1A["🔴 Emergency aeration!<br>Battery pump NOW"]
+        S2{"Check Ammonia"} -->|HIGH| S2A["🔴 50% water change<br>Stop feeding"]
         S3{"Check Temperature"} -->|EXTREME| S3A["🔴 Adjust heater/cooling"]
-        S4{"Chemical contamination?"} -->|YES| S4A["🔴 Massive water change\nActivated carbon"]
+        S4{"Chemical contamination?"} -->|YES| S4A["🔴 Massive water change<br>Activated carbon"]
     end
 
     subgraph GRADUAL["📉 GRADUAL DEATH"]
         direction TB
-        G1{"White spots\non shell?"} -->|YES| G1A["💀 WSSV — NO CURE\nCull, disinfect, restart"]
-        G2{"Pale hepatopancreas?\nEmpty gut?"} -->|YES| G2A["⚠️ AHPND/EMS\nReduce feed, probiotics"]
-        G3{"White fecal\nstrings floating?"} -->|YES| G3A["⚠️ WFD\nGarlic in feed, probiotics"]
-        G4{"Soft shell\n> 24 hours?"} -->|YES| G4A["💊 Mineral deficiency\nAdd Ca/Mg, check GH"]
-        G5{"Not eating?"} -->|YES| G5A["🔍 Check ALL params\nReduce feeding, observe"]
+        G1{"White spots<br>on shell?"} -->|YES| G1A["💀 WSSV — NO CURE<br>Cull, disinfect, restart"]
+        G2{"Pale hepatopancreas?<br>Empty gut?"} -->|YES| G2A["⚠️ AHPND/EMS<br>Reduce feed, probiotics"]
+        G3{"White fecal<br>strings floating?"} -->|YES| G3A["⚠️ WFD<br>Garlic in feed, probiotics"]
+        G4{"Soft shell<br>> 24 hours?"} -->|YES| G4A["💊 Mineral deficiency<br>Add Ca/Mg, check GH"]
+        G5{"Not eating?"} -->|YES| G5A["🔍 Check ALL params<br>Reduce feeding, observe"]
     end
 
-    FIRST["✅ FIRST RESPONSE (Always)\n1. Test ALL parameters\n2. Increase aeration\n3. Stop feeding\n4. Remove dead shrimp"]
+    FIRST["✅ FIRST RESPONSE (Always)<br>1. Test ALL parameters<br>2. Increase aeration<br>3. Stop feeding<br>4. Remove dead shrimp"]
 
     START --> FIRST
 

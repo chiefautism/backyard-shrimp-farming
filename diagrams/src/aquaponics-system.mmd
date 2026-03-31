@@ -1,24 +1,24 @@
 flowchart TD
     subgraph shrimp["🦐 Shrimp Tank"]
-        S1["Shrimp produce\nammonia waste"]
+        S1["Shrimp produce<br>ammonia waste"]
     end
 
     subgraph filter["🔬 Biofilter"]
-        F1["Bacteria convert\nNH₃ → NO₂ → NO₃"]
+        F1["Bacteria convert<br>NH₃ → NO₂ → NO₃"]
     end
 
     subgraph plants["🌱 Plant Grow Bed"]
-        P1["Plants absorb\nnitrate + phosphate\n+ micronutrients"]
+        P1["Plants absorb<br>nitrate + phosphate<br>+ micronutrients"]
     end
 
-    shrimp -->|"pump\n(nutrient-rich water)"| filter
+    shrimp -->|"pump<br>(nutrient-rich water)"| filter
     filter --> plants
-    plants -->|"gravity return\n(clean water)"| shrimp
+    plants -->|"gravity return<br>(clean water)"| shrimp
 
-    H1["🌿 HARVEST: Lettuce, Basil,\nHerbs, Kale, Tomatoes"] -.- plants
-    H2["🍤 HARVEST: Shrimp\n(every 90-120 days)"] -.- shrimp
+    H1["🌿 HARVEST: Lettuce, Basil,<br>Herbs, Kale, Tomatoes"] -.- plants
+    H2["🍤 HARVEST: Shrimp<br>(every 90-120 days)"] -.- shrimp
 
-    W["⚠️ pH Compromise\nShrimp want 7.5-8.5\nPlants want 5.5-6.5\nTarget: ~7.0"] -.- filter
+    W["⚠️ pH Compromise<br>Shrimp want 7.5-8.5<br>Plants want 5.5-6.5<br>Target: ~7.0"] -.- filter
 
     style shrimp fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px
     style filter fill:#fff3e0,stroke:#e65100,stroke-width:2px
