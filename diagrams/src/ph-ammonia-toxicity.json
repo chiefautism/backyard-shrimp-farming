@@ -1,0 +1,75 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {"text": "pH vs Ammonia Toxicity (at 28°C)", "subtitle": "Higher pH = MORE toxic ammonia", "fontSize": 16},
+  "width": 450,
+  "height": 280,
+  "background": "white",
+  "layer": [
+    {
+      "data": {
+        "values": [
+          {"pH": 7.0, "pct": 1, "zone": "Safe"},
+          {"pH": 7.5, "pct": 3, "zone": "Safe"},
+          {"pH": 8.0, "pct": 8, "zone": "Caution"},
+          {"pH": 8.5, "pct": 22, "zone": "Danger"},
+          {"pH": 9.0, "pct": 50, "zone": "Danger"}
+        ]
+      },
+      "mark": {"type": "area", "opacity": 0.2, "color": "#F44336"},
+      "encoding": {
+        "x": {"field": "pH", "type": "quantitative", "title": "pH", "scale": {"domain": [6.8, 9.2]}, "axis": {"grid": true}},
+        "y": {"field": "pct", "type": "quantitative", "title": "% of TAN as Toxic NH₃"}
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {"pH": 7.0, "pct": 1, "zone": "Safe"},
+          {"pH": 7.5, "pct": 3, "zone": "Safe"},
+          {"pH": 8.0, "pct": 8, "zone": "Caution"},
+          {"pH": 8.5, "pct": 22, "zone": "Danger"},
+          {"pH": 9.0, "pct": 50, "zone": "Danger"}
+        ]
+      },
+      "mark": {"type": "line", "strokeWidth": 3, "color": "#D32F2F"},
+      "encoding": {
+        "x": {"field": "pH", "type": "quantitative"},
+        "y": {"field": "pct", "type": "quantitative"}
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {"pH": 7.0, "pct": 1, "zone": "Safe", "label": "1%"},
+          {"pH": 7.5, "pct": 3, "zone": "Safe", "label": "3%"},
+          {"pH": 8.0, "pct": 8, "zone": "Caution", "label": "8%"},
+          {"pH": 8.5, "pct": 22, "zone": "Danger", "label": "22%"},
+          {"pH": 9.0, "pct": 50, "zone": "Danger", "label": "50%"}
+        ]
+      },
+      "mark": {"type": "point", "size": 120, "filled": true},
+      "encoding": {
+        "x": {"field": "pH", "type": "quantitative"},
+        "y": {"field": "pct", "type": "quantitative"},
+        "color": {"field": "zone", "type": "nominal", "scale": {"domain": ["Safe", "Caution", "Danger"], "range": ["#4CAF50", "#FF9800", "#F44336"]}, "title": "Zone"}
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {"pH": 7.0, "pct": 1, "label": "1%"},
+          {"pH": 7.5, "pct": 3, "label": "3%"},
+          {"pH": 8.0, "pct": 8, "label": "8%"},
+          {"pH": 8.5, "pct": 22, "label": "22%"},
+          {"pH": 9.0, "pct": 50, "label": "50%"}
+        ]
+      },
+      "mark": {"type": "text", "dy": -15, "fontWeight": "bold", "fontSize": 13},
+      "encoding": {
+        "x": {"field": "pH", "type": "quantitative"},
+        "y": {"field": "pct", "type": "quantitative"},
+        "text": {"field": "label", "type": "nominal"}
+      }
+    }
+  ]
+}

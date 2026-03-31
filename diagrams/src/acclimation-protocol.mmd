@@ -1,0 +1,12 @@
+flowchart LR
+    A["📦 STEP 1\n\nFloat bag\nin tank\n15-20 min\n\nTemperature\nequalization"] -->|open bag| B["💧 STEP 2\n\nDrip acclimate\nAdd 1 cup tank\nwater every 10 min\nfor 1-2 hours"]
+    B -->|test water| C["🔬 STEP 3\n\nTest & Verify\nSalinity < 2 ppt diff\npH < 0.5 diff\nTemp < 1°C diff"]
+    C -->|all good| D["🦐 STEP 4\n\nGently release\nDim lights 24 hrs\nNo feeding 12-24 hrs"]
+
+    WARN["🚨 MAX SAFE RATES\nTemp: 1°C per 15 min\nSalinity: 2 ppt per hour\npH: 0.5 per hour\n\nRUSHING = MASS DIE-OFF"] -.-> B
+
+    style A fill:#e3f2fd,stroke:#1565c0,stroke-width:2px
+    style B fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px
+    style C fill:#fff3e0,stroke:#e65100,stroke-width:2px
+    style D fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
+    style WARN fill:#ffcdd2,stroke:#c62828,stroke-width:2px,stroke-dasharray: 5 5

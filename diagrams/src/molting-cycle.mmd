@@ -1,0 +1,16 @@
+flowchart LR
+    A["1️⃣ PRE-MOLT\n\nStops feeding\nLess active\nNew shell forming\nunderneath"] -->|"shell splits"| B["2️⃣ ECDYSIS\n\n⚠️ Old shell sheds\nTakes seconds\nMOST VULNERABLE\nTIME"]
+    B -->|"soft shell"| C["3️⃣ POST-MOLT\n\nShell soft 1-4 hrs\nAbsorbs water\nExpands ~15%\n🔴 Cannibalism risk"]
+    C -->|"shell hardens"| D["4️⃣ INTER-MOLT\n\n✅ Active feeding\nGrowing phase\nLongest stage\n(days to weeks)"]
+    D -->|"cycle repeats"| A
+
+    M["💊 Minerals Needed\nCa > 200 mg/L\nMg > 50 mg/L\nAlkalinity > 100 mg/L"] -.-> C
+
+    F["📅 Frequency\nPL: every 2-3 days\nJuvenile: 5-7 days\nAdult: 14-21 days"] -.-> D
+
+    style A fill:#fff3e0,stroke:#e65100,stroke-width:2px
+    style B fill:#ffcdd2,stroke:#c62828,stroke-width:3px
+    style C fill:#e3f2fd,stroke:#1565c0,stroke-width:2px
+    style D fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px
+    style M fill:#f3e5f5,stroke:#7b1fa2,stroke-dasharray: 5 5
+    style F fill:#e8eaf6,stroke:#283593,stroke-dasharray: 5 5

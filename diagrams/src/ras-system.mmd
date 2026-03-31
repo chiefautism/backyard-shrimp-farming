@@ -1,0 +1,15 @@
+flowchart LR
+    A["🦐 Grow Tank\n(shrimp live here)"] -->|overflow| B["Settling Tank\n(solids removal)"]
+    B -->|clear water| C["Biofilter\nMBBR / K1 media\nNH₃→NO₂→NO₃"]
+    C -->|filtered| D["UV Sterilizer\n(optional)\nkills pathogens"]
+    D -->|clean| E["Sump\n🔌 Pump + Heater\n+ Auto Top-Off"]
+    E -->|"pump return\n2-4x volume/hr"| A
+
+    B -.->|"sludge\ndrain weekly"| F["Waste\nRemoval"]
+
+    style A fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px
+    style B fill:#fff3e0,stroke:#e65100,stroke-width:2px
+    style C fill:#e3f2fd,stroke:#1565c0,stroke-width:2px
+    style D fill:#f3e5f5,stroke:#7b1fa2,stroke-width:1px,stroke-dasharray: 5 5
+    style E fill:#e8eaf6,stroke:#283593,stroke-width:2px
+    style F fill:#efebe9,stroke:#795548

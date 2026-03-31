@@ -1,0 +1,39 @@
+flowchart TD
+    subgraph tank["🦐 Grow Tank (IBC Tote)"]
+        direction TB
+        shrimp["Shrimp eat floc\n+ commercial feed"]
+        waste["Shrimp produce\nammonia waste"]
+        floc["Biofloc forms\n(bacteria + protozoa)"]
+    end
+
+    subgraph inputs["Inputs"]
+        feed["Commercial Feed\n(32-40% protein)"]
+        carbon["Carbon Source\n(molasses/sugar)"]
+        air["Aeration 24/7\n(air pump + stones)"]
+    end
+
+    subgraph monitoring["Monitoring"]
+        imhoff["Imhoff Cone\n(floc volume 10-15 mL/L)"]
+        tests["Water Tests\n(pH, NH3, NO2, alkalinity)"]
+        temp["Temperature\n(28-32°C)"]
+    end
+
+    feed --> shrimp
+    carbon --> floc
+    air --> tank
+    shrimp --> waste
+    waste -->|"C:N 15-20:1\n+ carbon"| floc
+    floc -->|"Free protein!\n30-50% of diet"| shrimp
+    tank --> imhoff
+    tank --> tests
+    tank --> temp
+
+    style tank fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px
+    style inputs fill:#e3f2fd,stroke:#1565c0,stroke-width:2px
+    style monitoring fill:#fff3e0,stroke:#e65100,stroke-width:2px
+    style shrimp fill:#ffcdd2,stroke:#c62828
+    style floc fill:#c8e6c9,stroke:#2e7d32
+    style waste fill:#ffecb3,stroke:#ff8f00
+    style feed fill:#bbdefb,stroke:#1565c0
+    style carbon fill:#bbdefb,stroke:#1565c0
+    style air fill:#bbdefb,stroke:#1565c0

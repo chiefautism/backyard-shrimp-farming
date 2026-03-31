@@ -1,0 +1,78 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {"text": "L. vannamei Growth Timeline (90-120 days)", "fontSize": 16},
+  "width": 500,
+  "height": 300,
+  "background": "white",
+  "layer": [
+    {
+      "data": {
+        "values": [
+          {"week": 0, "weight": 0.01, "phase": "Nursery"},
+          {"week": 2, "weight": 0.5, "phase": "Nursery"},
+          {"week": 4, "weight": 2, "phase": "Nursery"},
+          {"week": 6, "weight": 5, "phase": "Growth"},
+          {"week": 8, "weight": 8, "phase": "Growth"},
+          {"week": 10, "weight": 12, "phase": "Finishing"},
+          {"week": 12, "weight": 16, "phase": "Finishing"},
+          {"week": 14, "weight": 20, "phase": "Harvest"},
+          {"week": 16, "weight": 25, "phase": "Harvest"}
+        ]
+      },
+      "mark": {"type": "area", "opacity": 0.3, "color": "#4CAF50"},
+      "encoding": {
+        "x": {"field": "week", "type": "quantitative", "title": "Week", "axis": {"grid": true}},
+        "y": {"field": "weight", "type": "quantitative", "title": "Weight (grams)"}
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {"week": 0, "weight": 0.01, "phase": "Nursery"},
+          {"week": 2, "weight": 0.5, "phase": "Nursery"},
+          {"week": 4, "weight": 2, "phase": "Nursery"},
+          {"week": 6, "weight": 5, "phase": "Growth"},
+          {"week": 8, "weight": 8, "phase": "Growth"},
+          {"week": 10, "weight": 12, "phase": "Finishing"},
+          {"week": 12, "weight": 16, "phase": "Finishing"},
+          {"week": 14, "weight": 20, "phase": "Harvest"},
+          {"week": 16, "weight": 25, "phase": "Harvest"}
+        ]
+      },
+      "mark": {"type": "line", "strokeWidth": 3, "color": "#2E7D32"},
+      "encoding": {
+        "x": {"field": "week", "type": "quantitative"},
+        "y": {"field": "weight", "type": "quantitative"}
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {"week": 0, "weight": 0.01, "phase": "Nursery"},
+          {"week": 2, "weight": 0.5, "phase": "Nursery"},
+          {"week": 4, "weight": 2, "phase": "Nursery"},
+          {"week": 6, "weight": 5, "phase": "Growth"},
+          {"week": 8, "weight": 8, "phase": "Growth"},
+          {"week": 10, "weight": 12, "phase": "Finishing"},
+          {"week": 12, "weight": 16, "phase": "Finishing"},
+          {"week": 14, "weight": 20, "phase": "Harvest"},
+          {"week": 16, "weight": 25, "phase": "Harvest"}
+        ]
+      },
+      "mark": {"type": "point", "size": 80, "filled": true},
+      "encoding": {
+        "x": {"field": "week", "type": "quantitative"},
+        "y": {"field": "weight", "type": "quantitative"},
+        "color": {"field": "phase", "type": "nominal", "scale": {"domain": ["Nursery", "Growth", "Finishing", "Harvest"], "range": ["#FF9800", "#2196F3", "#4CAF50", "#F44336"]}, "title": "Phase"}
+      }
+    },
+    {
+      "data": {"values": [{"week": 12, "label": "HARVEST ZONE →"}]},
+      "mark": {"type": "text", "fontSize": 12, "fontWeight": "bold", "color": "#F44336", "align": "left"},
+      "encoding": {
+        "x": {"field": "week", "type": "quantitative"},
+        "y": {"datum": 22}
+      }
+    }
+  ]
+}

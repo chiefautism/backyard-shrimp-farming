@@ -1,0 +1,70 @@
+direction: right
+
+tote: IBC Tote 275gal {
+  style: {
+    fill: "#E8F5E9"
+    stroke: "#2E7D32"
+    stroke-width: 3
+  }
+
+  air1: Air Stone 1 {
+    shape: circle
+    style.fill: "#BBDEFB"
+    style.stroke: "#1565C0"
+  }
+  air2: Air Stone 2 {
+    shape: circle
+    style.fill: "#BBDEFB"
+    style.stroke: "#1565C0"
+  }
+  air3: Air Stone 3 {
+    shape: circle
+    style.fill: "#BBDEFB"
+    style.stroke: "#1565C0"
+  }
+  air4: Air Stone 4 {
+    shape: circle
+    style.fill: "#BBDEFB"
+    style.stroke: "#1565C0"
+  }
+
+  heater1: Heater 300W {
+    shape: rectangle
+    style.fill: "#FFCDD2"
+    style.stroke: "#C62828"
+  }
+  heater2: Heater 300W {
+    shape: rectangle
+    style.fill: "#FFCDD2"
+    style.stroke: "#C62828"
+  }
+
+  feed: Feed Tray {
+    shape: rectangle
+    style.fill: "#C8E6C9"
+    style.stroke: "#2E7D32"
+    style.stroke-dash: 5
+  }
+
+  thermo: Thermometer {
+    shape: circle
+    style.fill: "#FFF3E0"
+    style.stroke: "#E65100"
+  }
+}
+
+pump: Air Pump (Hakko HK-40L) {
+  shape: rectangle
+  style.fill: "#E3F2FD"
+  style.stroke: "#1565C0"
+}
+
+pump -> tote.air1: tubing
+pump -> tote.air2: tubing
+pump -> tote.air3: tubing
+pump -> tote.air4: tubing
+
+checklist: Setup Checklist\n4x air stones\n2x heaters (redundancy)\n1x feed tray\n1x thermometer\nDark exterior paint\nBattery backup {
+  style.fill: "#FFFDE7"
+  style.stroke: "#F9A825"
+}

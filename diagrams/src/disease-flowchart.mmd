@@ -1,0 +1,34 @@
+flowchart TD
+    START(["🚨 SHRIMP ARE DYING"]) --> Q1{"How fast?"}
+
+    Q1 -->|"Hours\n(sudden)"| SUDDEN
+    Q1 -->|"Days\n(gradual)"| GRADUAL
+
+    subgraph SUDDEN["⚡ SUDDEN DEATH"]
+        direction TB
+        S1{"Check DO"} -->|LOW| S1A["🔴 Emergency aeration!\nBattery pump NOW"]
+        S2{"Check Ammonia"} -->|HIGH| S2A["🔴 50% water change\nStop feeding"]
+        S3{"Check Temperature"} -->|EXTREME| S3A["🔴 Adjust heater/cooling"]
+        S4{"Chemical contamination?"} -->|YES| S4A["🔴 Massive water change\nActivated carbon"]
+    end
+
+    subgraph GRADUAL["📉 GRADUAL DEATH"]
+        direction TB
+        G1{"White spots\non shell?"} -->|YES| G1A["💀 WSSV — NO CURE\nCull, disinfect, restart"]
+        G2{"Pale hepatopancreas?\nEmpty gut?"} -->|YES| G2A["⚠️ AHPND/EMS\nReduce feed, probiotics"]
+        G3{"White fecal\nstrings floating?"} -->|YES| G3A["⚠️ WFD\nGarlic in feed, probiotics"]
+        G4{"Soft shell\n> 24 hours?"} -->|YES| G4A["💊 Mineral deficiency\nAdd Ca/Mg, check GH"]
+        G5{"Not eating?"} -->|YES| G5A["🔍 Check ALL params\nReduce feeding, observe"]
+    end
+
+    FIRST["✅ FIRST RESPONSE (Always)\n1. Test ALL parameters\n2. Increase aeration\n3. Stop feeding\n4. Remove dead shrimp"]
+
+    START --> FIRST
+
+    style START fill:#ffcdd2,stroke:#c62828,stroke-width:3px
+    style SUDDEN fill:#fff3e0,stroke:#e65100,stroke-width:2px
+    style GRADUAL fill:#fce4ec,stroke:#880e4f,stroke-width:2px
+    style FIRST fill:#c8e6c9,stroke:#2e7d32,stroke-width:2px
+    style G1A fill:#ffcdd2,stroke:#b71c1c
+    style S1A fill:#ffcdd2,stroke:#b71c1c
+    style S2A fill:#ffcdd2,stroke:#b71c1c

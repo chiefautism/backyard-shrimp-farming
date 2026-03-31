@@ -1,0 +1,46 @@
+flowchart TD
+    subgraph RED["🔴 Red Line"]
+        R1["Cherry"] ~~~ R2["Sakura"]
+        R3["Fire Red"] ~~~ R4["Painted Fire Red"]
+    end
+
+    subgraph BLUE["🔵 Blue Line"]
+        B1["Blue Dream"] ~~~ B2["Blue Velvet"]
+        B3["Blue Jelly"]
+    end
+
+    subgraph ORANGE["🟠 Orange Line"]
+        O1["Orange Sakura"] ~~~ O2["Sunkist"]
+    end
+
+    subgraph YELLOW["🟡 Yellow Line"]
+        Y1["Yellow"] ~~~ Y2["Golden Back"]
+        Y3["Neon Yellow"]
+    end
+
+    subgraph DARK["🟤 Dark Line"]
+        D1["Black Rose"] ~~~ D2["Chocolate"]
+    end
+
+    subgraph BM["🩸 Bloody Mary"]
+        BM1["Tissue-based color\n(not shell pigment)\nKEEP SEPARATE"]
+    end
+
+    RED -.->|"MIXING = WILD TYPE ❌"| WILD
+    BLUE -.->|"MIXING = WILD TYPE ❌"| WILD
+    ORANGE -.->|"MIXING = WILD TYPE ❌"| WILD
+    YELLOW -.->|"MIXING = WILD TYPE ❌"| WILD
+    DARK -.->|"MIXING = WILD TYPE ❌"| WILD
+
+    WILD["🟤 Wild Type (Brown/Clear)\nResult of mixing different groups"]
+
+    RULE["✅ RULE: Within same group = safe\n❌ RULE: Different groups = wild type\n📌 ONE color per tank"]
+
+    style RED fill:#ffebee,stroke:#c62828,stroke-width:2px
+    style BLUE fill:#e3f2fd,stroke:#1565c0,stroke-width:2px
+    style ORANGE fill:#fff3e0,stroke:#e65100,stroke-width:2px
+    style YELLOW fill:#fffde7,stroke:#f9a825,stroke-width:2px
+    style DARK fill:#efebe9,stroke:#4e342e,stroke-width:2px
+    style BM fill:#fce4ec,stroke:#880e4f,stroke-width:2px,stroke-dasharray: 5 5
+    style WILD fill:#f5f5f5,stroke:#616161,stroke-width:2px
+    style RULE fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px
