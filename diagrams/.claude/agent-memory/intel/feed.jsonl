@@ -1,9 +1,0 @@
-{"ts":1774916393,"tool":"Bash","cmd":"cd /Users/adaboost/work/backyard-shrimp-farming/diagrams\n\n# Render all Mermaid diagrams\nfor f in src/*.mmd; do\n  name=$(basename \"$f\" .mmd)\n  echo \"Rendering $name...\"\n  curl -s \"https://kroki.io/merm\n"}
-{"ts":1774916485,"tool":"Bash","cmd":"cd /Users/adaboost/work/backyard-shrimp-farming/diagrams\n\n# Function to render mermaid via JSON POST (preserves newlines)\nrender_mermaid() {\n  local src=\"$1\"\n  local out=\"$2\"\n  python3 -c \"\nimport jso\n"}
-{"ts":1774917134,"tool":"Bash","cmd":"cd /Users/adaboost/work/backyard-shrimp-farming/diagrams\n\n# Fix D2 - remove markdown title block, simplify\npython3 -c \"\nimport json, sys\nwith open('src/ibc-tote-setup.d2') as f:\n    src = f.read()\n# R\n"}
-{"ts":1774917162,"tool":"Write","file":"/Users/adaboost/work/backyard-shrimp-farming/diagrams/src/ibc-tote-setup.d2"}
-{"ts":1774917579,"tool":"Bash","cmd":"cd /Users/adaboost/work/backyard-shrimp-farming/diagrams\n\npython3 -c \"\nimport json, sys\nwith open('src/ibc-tote-setup.d2') as f:\n    src = f.read()\npayload = json.dumps({'diagram_source': src, 'diagra\n"}
-{"ts":1774917863,"tool":"Bash","cmd":"cd /Users/adaboost/work/backyard-shrimp-farming/diagrams\necho \"=== ALL SVG FILES ===\"\nfor f in *.svg; do\n  size=$(wc -c < \"$f\")\n  valid=$(head -1 \"$f\" | grep -c '<svg\\|<?xml')\n  if [ \"$valid\" -eq 1 ] \n"}
-{"ts":1774918952,"tool":"Bash","cmd":"cd /Users/adaboost/work/backyard-shrimp-farming/diagrams\n\n# Re-render all mermaid via JSON POST\nfor f in src/*.mmd; do\n  name=$(basename \"$f\" .mmd)\n  python3 -c \"\nimport json, sys\nwith open('$f') as f\n"}
-{"ts":1774919004,"tool":"Edit","file":"/Users/adaboost/work/backyard-shrimp-farming/README.md"}
-{"ts":1774919015,"tool":"Edit","file":"/Users/adaboost/work/backyard-shrimp-farming/README.md"}
